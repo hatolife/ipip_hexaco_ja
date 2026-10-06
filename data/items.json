@@ -12,7 +12,7 @@
     "status": "independent",
     "reviewed_all_items": true,
     "reviewed_date": "2026-10-06",
-    "note": "All 240 items were compared one-by-one with the English source. Japanese wording favors preservation of intent and natural comprehensibility over literal word-for-word translation. This translation has not been psychometrically validated."
+    "note": "All 240 items were compared one-by-one with the English source through three review passes. Japanese wording favors preservation of intent and natural comprehensibility over literal word-for-word translation. Interpretation that is not explicit in the source is kept in guidance where possible. This translation has not been psychometrically validated."
   },
   "items": [
     {
@@ -23,7 +23,7 @@
       "facet_ja": "誠実さ",
       "key": "+",
       "original": "Don't pretend to be more than I am.",
-      "translation": "実際の自分以上に有能・立派な人物であるかのように見せかけることはしない。",
+      "translation": "実際の自分以上の人物であるかのように装うことはしない。",
       "guidance": ""
     },
     {
@@ -100,7 +100,7 @@
       "facet_ja": "誠実さ",
       "key": "-",
       "original": "Act like different people in different situations.",
-      "translation": "相手や状況に合わせて、自分の人格まで違うように見えるほど振る舞いを変えることがある。",
+      "translation": "状況によって、まるで違う人のように振る舞うことがある。",
       "guidance": ""
     },
     {
@@ -133,7 +133,7 @@
       "facet_ja": "公平さ",
       "key": "+",
       "original": "Would never take things that aren't mine.",
-      "translation": "自分のものではない物を、自分のものにしてしまうことは決してしないと思う。",
+      "translation": "自分のものではない物を勝手に取ることは決してしないと思う。",
       "guidance": ""
     },
     {
@@ -177,8 +177,8 @@
       "facet_ja": "公平さ",
       "key": "+",
       "original": "Try to follow the rules.",
-      "translation": "特別な理由がない限り、定められたルールには従うようにしている。",
-      "guidance": "ルールが絶対に正しいと思うかではなく、普段どの程度ルールに従う側かを考えてください。"
+      "translation": "ルールには従うようにしている。",
+      "guidance": "ルールが絶対に正しいと思うかではなく、普段どの程度ルールに従おうとする側かを考えてください。"
     },
     {
       "id": 16,
@@ -221,7 +221,7 @@
       "facet_ja": "公平さ",
       "key": "-",
       "original": "Cheat on people who have trusted me.",
-      "translation": "自分を信頼してくれている人を、だましたり裏切ったりして自分の利益を得ることがある。",
+      "translation": "自分を信頼してくれている人を、だましたり裏切ったりすることがある。",
       "guidance": ""
     },
     {
@@ -287,7 +287,7 @@
       "facet_ja": "強欲さの低さ",
       "key": "-",
       "original": "Seek status.",
-      "translation": "社会的な地位や肩書きの高さを求める。",
+      "translation": "社会的な地位や評価の高さを求める。",
       "guidance": ""
     },
     {
@@ -342,7 +342,7 @@
       "facet_ja": "強欲さの低さ",
       "key": "-",
       "original": "Am out for my own personal gain.",
-      "translation": "物事を判断するとき、自分個人の利益を得られるかどうかをかなり重視する。",
+      "translation": "自分自身の利益を得ることを第一に考えて行動する。",
       "guidance": ""
     },
     {
@@ -441,7 +441,7 @@
       "facet_ja": "謙虚さ",
       "key": "-",
       "original": "Am likely to show off if I get the chance.",
-      "translation": "自分をよく見せられる機会があれば、つい能力や実績を見せつけるような振る舞いをすると思う。",
+      "translation": "機会があれば、つい自分を見せびらかすような振る舞いをすると思う。",
       "guidance": ""
     },
     {
@@ -485,7 +485,7 @@
       "facet_ja": "恐れやすさ",
       "key": "+",
       "original": "Would fear walking in a high-crime part of a city.",
-      "translation": "犯罪が多いと分かっている地域を歩くとしたら、強い怖さを感じると思う。",
+      "translation": "犯罪が多いと分かっている地域を歩くのは、怖いと思う。",
       "guidance": ""
     },
     {
@@ -606,7 +606,7 @@
       "facet_ja": "不安",
       "key": "+",
       "original": "Get upset by unpleasant thoughts that come into my mind.",
-      "translation": "嫌な想像や考えが頭に浮かぶと、それだけで気持ちがかなり乱される。",
+      "translation": "嫌な想像や考えが頭に浮かぶと、それだけで気持ちが乱される。",
       "guidance": ""
     },
     {
@@ -650,7 +650,7 @@
       "facet_ja": "不安",
       "key": "-",
       "original": "Am not easily disturbed by events.",
-      "translation": "予想外の出来事や問題が起きても、感情を大きく乱されにくい。",
+      "translation": "何か出来事が起きても、簡単には心を乱されない。",
       "guidance": ""
     },
     {
@@ -683,7 +683,7 @@
       "facet_ja": "依存性",
       "key": "+",
       "original": "Need reassurance.",
-      "translation": "不安なときには、誰かから『大丈夫だ』と安心させてもらいたいと強く感じる。",
+      "translation": "不安なときには、誰かから『大丈夫だ』と安心させてもらいたいと感じる。",
       "guidance": ""
     },
     {
@@ -694,8 +694,8 @@
       "facet_ja": "依存性",
       "key": "+",
       "original": "Let myself be influenced by others.",
-      "translation": "自分の判断よりも、周囲の人の意見や態度に流されて決めてしまうことがある。",
-      "guidance": "根拠を聞いて納得して意見を変えることではなく、周囲の意見・雰囲気に自分の判断が引っ張られやすいかを考えてください。"
+      "translation": "他人の意見や態度に、自分が影響されるままになることがある。",
+      "guidance": "根拠を聞いて納得して意見を変えることとは別に、周囲の意見・雰囲気そのものに自分が影響されやすいかを考えてください。"
     },
     {
       "id": 63,
@@ -705,7 +705,7 @@
       "facet_ja": "依存性",
       "key": "+",
       "original": "Need the approval of others.",
-      "translation": "自分の判断や行動について、他人から認めてもらうことを強く必要とする。",
+      "translation": "他人から認めてもらう必要を感じる。",
       "guidance": ""
     },
     {
@@ -782,7 +782,7 @@
       "facet_ja": "依存性",
       "key": "+",
       "original": "Want to be liked.",
-      "translation": "周囲の人から好かれていたいという気持ちが強い。",
+      "translation": "人から好かれたい。",
       "guidance": ""
     },
     {
@@ -793,7 +793,7 @@
       "facet_ja": "情の深さ",
       "key": "+",
       "original": "Feel others' emotions.",
-      "translation": "他人が強く感じている感情に触れると、自分にもその感情が伝わってくるように感じる。",
+      "translation": "他人の感情に触れると、自分にもその感情が伝わってくるように感じる。",
       "guidance": ""
     },
     {
@@ -1035,7 +1035,7 @@
       "facet_ja": "社交的大胆さ",
       "key": "+",
       "original": "Feel comfortable around people.",
-      "translation": "人に囲まれている場でも、緊張せず自然体でいられる。",
+      "translation": "人と一緒にいる場でも、緊張せず自然体でいられる。",
       "guidance": ""
     },
     {
@@ -1057,8 +1057,8 @@
       "facet_ja": "社交的大胆さ",
       "key": "+",
       "original": "Have a strong personality.",
-      "translation": "周囲に押されにくく、自分の存在感や意志をはっきり示す性格だと思う。",
-      "guidance": ""
+      "translation": "性格がはっきりしていて、存在感や意志が強い方だと思う。",
+      "guidance": "ここでいう strong personality は、性格の善悪ではなく、意志や存在感が強く、周囲に押されにくいという意味です。"
     },
     {
       "id": 96,
@@ -1068,7 +1068,7 @@
       "facet_ja": "社交的大胆さ",
       "key": "-",
       "original": "Would be afraid to give a speech in public.",
-      "translation": "人前に立ってスピーチをすることには、強い怖さや緊張を感じると思う。",
+      "translation": "人前でスピーチをするのは怖いと思う。",
       "guidance": ""
     },
     {
@@ -1123,8 +1123,8 @@
       "facet_ja": "社交性",
       "key": "+",
       "original": "Usually like to spend my free time with people.",
-      "translation": "自由時間は、一人で過ごすより人と一緒に過ごす方を好むことが多い。",
-      "guidance": ""
+      "translation": "自由時間は、人と一緒に過ごすのが好きなことが多い。",
+      "guidance": "一人で過ごすことが嫌いかではなく、自由時間を人と一緒に過ごすことを普段どの程度好むかで答えてください。"
     },
     {
       "id": 102,
@@ -1145,7 +1145,7 @@
       "facet_ja": "社交性",
       "key": "+",
       "original": "Love to chat.",
-      "translation": "目的のない雑談も含め、人とおしゃべりすることが好きだ。",
+      "translation": "人とおしゃべりすることが好きだ。",
       "guidance": ""
     },
     {
@@ -1200,7 +1200,7 @@
       "facet_ja": "社交性",
       "key": "-",
       "original": "Would not enjoy a job that involves a lot of social interaction.",
-      "translation": "人との会話や応対が一日の大部分を占める仕事は、あまり楽しめないと思う。",
+      "translation": "人とのやり取りが多い仕事は、あまり楽しめないと思う。",
       "guidance": ""
     },
     {
@@ -1222,7 +1222,7 @@
       "facet_ja": "社交性",
       "key": "-",
       "original": "Keep others at a distance.",
-      "translation": "人と必要以上に親しくならないよう、ある程度の距離を置く方だ。",
+      "translation": "他人とは、ある程度の距離を置く方だ。",
       "guidance": ""
     },
     {
@@ -1299,8 +1299,8 @@
       "facet_ja": "活発さ",
       "key": "+",
       "original": "Feel that I have a lot of inner strength.",
-      "translation": "自分の内側に、物事に向かうための十分な力や活力があると感じる。",
-      "guidance": "inner strength は直訳すると『内面的な力』ですが、ここでは精神力だけに限定せず、自分の内側にある力強さ・活力として捉えてください。"
+      "translation": "自分の内側に、十分な力強さや活力があると感じる。",
+      "guidance": "inner strength は直訳すると『内面的な力』ですが、精神力だけに限定せず、自分の内側にある力強さ・活力として捉えてください。"
     },
     {
       "id": 118,
@@ -1409,8 +1409,8 @@
       "facet_ja": "寛容さ",
       "key": "-",
       "original": "Get back at people who insult me.",
-      "translation": "自分を侮辱した人には、何らかの形で仕返しをしたくなる。",
-      "guidance": ""
+      "translation": "自分を侮辱した人には、何らかの形で仕返しすることがある。",
+      "guidance": "仕返ししたい気持ちだけでなく、実際に仕返しする傾向を聞いています。"
     },
     {
       "id": 128,
@@ -1420,8 +1420,8 @@
       "facet_ja": "寛容さ",
       "key": "-",
       "original": "Get even with others.",
-      "translation": "誰かにやられたら、同じくらいのことを返して帳尻を合わせたいと思う。",
-      "guidance": ""
+      "translation": "誰かにやられたら、同じくらいのことを返して帳尻を合わせることがある。",
+      "guidance": "単に不公平を正したいという意味より、やられた分を相手にも返して『貸し借りなし』にしようとする傾向を聞いています。"
     },
     {
       "id": 129,
@@ -1519,7 +1519,7 @@
       "facet_ja": "穏やかさ",
       "key": "-",
       "original": "Find fault with everything.",
-      "translation": "物事を見ると、良い点より欠点や問題点ばかり見つけがちだ。",
+      "translation": "何にでも欠点や問題点を見つけがちだ。",
       "guidance": ""
     },
     {
@@ -1530,7 +1530,7 @@
       "facet_ja": "穏やかさ",
       "key": "-",
       "original": "Speak ill of others.",
-      "translation": "他人の悪いところを言うことがある。",
+      "translation": "他人のことを悪く言うことがある。",
       "guidance": ""
     },
     {
@@ -1552,7 +1552,7 @@
       "facet_ja": "穏やかさ",
       "key": "-",
       "original": "Criticize others' shortcomings.",
-      "translation": "他人の欠点や弱いところを、本人や周囲に指摘・批判することが多い。",
+      "translation": "他人の欠点や弱いところを批判することが多い。",
       "guidance": ""
     },
     {
@@ -1574,8 +1574,8 @@
       "facet_ja": "柔軟さ",
       "key": "+",
       "original": "Am good at taking advice.",
-      "translation": "人から助言を受けたとき、自分と違う考えでも妥当なら取り入れられる。",
-      "guidance": "何にでも同意するかではなく、他人の助言が妥当なら自分の考えを修正できるかを考えてください。"
+      "translation": "人からの助言を取り入れるのが得意だ。",
+      "guidance": "助言の内容が必ず正しいと思うかではなく、他人からの助言を受け取り、自分の考えや行動へ取り入れやすいかを考えてください。"
     },
     {
       "id": 143,
@@ -1805,7 +1805,7 @@
       "facet_ja": "整理整頓",
       "key": "+",
       "original": "Like order.",
-      "translation": "物や予定が整理され、秩序立っている状態が好きだ。",
+      "translation": "物事が整理され、秩序立っている状態が好きだ。",
       "guidance": ""
     },
     {
@@ -2025,7 +2025,7 @@
       "facet_ja": "完全主義",
       "key": "+",
       "original": "Have an eye for detail.",
-      "translation": "他の人が見落とすような細かな違いや問題によく気づく。",
+      "translation": "他の人が見落とすような細かな点によく気づく。",
       "guidance": ""
     },
     {
@@ -2080,8 +2080,8 @@
       "facet_ja": "完全主義",
       "key": "+",
       "original": "Demand quality.",
-      "translation": "『とりあえずできた』だけでなく、成果物の品質を高く保つことを求める。",
-      "guidance": ""
+      "translation": "物事の出来には、高い品質を求める。",
+      "guidance": "仕事の成果物だけに限定せず、物事の出来や品質に高い水準を求める傾向を考えてください。"
     },
     {
       "id": 189,
@@ -2124,7 +2124,7 @@
       "facet_ja": "慎重さ",
       "key": "+",
       "original": "Make plans and stick to them.",
-      "translation": "計画を立てたら、途中で気分が変わってもなるべくその計画どおりに進める。",
+      "translation": "計画を立てたら、その計画に従って進める。",
       "guidance": ""
     },
     {
@@ -2223,7 +2223,7 @@
       "facet_ja": "美的感受性",
       "key": "+",
       "original": "Believe in the importance of art.",
-      "translation": "芸術は、社会や人間の生活にとって重要な価値があると思う。",
+      "translation": "芸術は重要なものだと思う。",
       "guidance": ""
     },
     {
@@ -2234,7 +2234,7 @@
       "facet_ja": "美的感受性",
       "key": "+",
       "original": "Get deeply immersed in music.",
-      "translation": "音楽を聴いていると、周囲を忘れるほど深く入り込むことがある。",
+      "translation": "音楽に深く没頭することがある。",
       "guidance": ""
     },
     {
@@ -2322,7 +2322,7 @@
       "facet_ja": "美的感受性",
       "key": "-",
       "original": "Do not enjoy watching dance performances.",
-      "translation": "舞踊・ダンスなど、身体表現を鑑賞することはあまり楽しめない。",
+      "translation": "ダンスや舞踊の公演を見るのは、あまり楽しくない。",
       "guidance": ""
     },
     {
@@ -2344,7 +2344,7 @@
       "facet_ja": "探究心",
       "key": "+",
       "original": "Would love to explore strange places.",
-      "translation": "普通の観光地ではない未知の場所や変わった場所を、実際に探索してみたい。",
+      "translation": "珍しい・変わった場所を探検してみたい。",
       "guidance": ""
     },
     {
@@ -2366,7 +2366,7 @@
       "facet_ja": "探究心",
       "key": "+",
       "original": "Love to read challenging material.",
-      "translation": "簡単に読める内容より、難しくても考えさせられる文章や本を読むのが好きだ。",
+      "translation": "難しくて考えさせられる読み物を読むのが好きだ。",
       "guidance": ""
     },
     {
@@ -2432,7 +2432,7 @@
       "facet_ja": "探究心",
       "key": "-",
       "original": "Will not probe deeply into a subject.",
-      "translation": "興味を持ったテーマでも、詳しい背景や仕組みまで深く掘り下げることはあまりない。",
+      "translation": "一つのテーマについて、詳しい背景や仕組みまで深く掘り下げることはあまりない。",
       "guidance": ""
     },
     {
@@ -2454,7 +2454,7 @@
       "facet_ja": "創造性",
       "key": "+",
       "original": "Come up with something new.",
-      "translation": "既存のものとは違う、新しいアイデアや方法を思いつくことが多い。",
+      "translation": "新しいアイデアや方法を思いつく。",
       "guidance": ""
     },
     {
@@ -2476,7 +2476,7 @@
       "facet_ja": "創造性",
       "key": "+",
       "original": "Am full of ideas.",
-      "translation": "一つのことについて、次々にいろいろなアイデアが浮かぶ方だ。",
+      "translation": "いろいろなアイデアが次々に浮かぶ方だ。",
       "guidance": ""
     },
     {
@@ -2487,7 +2487,7 @@
       "facet_ja": "創造性",
       "key": "+",
       "original": "Love to think up new ways of doing things.",
-      "translation": "今までのやり方をそのまま使うより、新しいやり方を考えることを楽しむ。",
+      "translation": "物事の新しいやり方を考えるのが好きだ。",
       "guidance": ""
     },
     {
@@ -2509,7 +2509,7 @@
       "facet_ja": "創造性",
       "key": "-",
       "original": "Do not have a good imagination.",
-      "translation": "頭の中で新しい場面や可能性を思い描くのは、あまり得意ではない。",
+      "translation": "想像力はあまり豊かではない。",
       "guidance": ""
     },
     {
@@ -2564,7 +2564,7 @@
       "facet_ja": "非慣習性",
       "key": "+",
       "original": "Know that my ideas sometimes surprise people.",
-      "translation": "自分では普通に考えたことでも、その発想に驚く人がときどきいると分かっている。",
+      "translation": "自分の考えや発想が、ときどき人を驚かせることを分かっている。",
       "guidance": ""
     },
     {
@@ -2597,8 +2597,8 @@
       "facet_ja": "非慣習性",
       "key": "+",
       "original": "Swim against the current.",
-      "translation": "周囲の大多数がある方向へ進んでいても、自分が違うと思えばあえて反対側へ進むことがある。",
-      "guidance": "反対すること自体が好きかではなく、多数派と違っても自分の判断を選びやすいかを考えてください。"
+      "translation": "周囲の大多数と違う方向を、あえて選ぶことがある。",
+      "guidance": "反対すること自体が好きかではなく、多数派と違う選択をすることへの抵抗が少ないかを考えてください。"
     },
     {
       "id": 236,
