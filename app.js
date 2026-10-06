@@ -48,6 +48,8 @@ let answers=new Map();
 let pos=0;
 let lastSave=null;
 let showEnglish=false;
+let autoAdvance=false;
+let autoAdvanceTimer=null;
 let startedAt=null;
 let comparisonSnapshots=[];
 let reviewQueue=[];
@@ -86,6 +88,13 @@ function init(){
 	$("saveSession").addEventListener("click",()=>saveJson("ipip-hexaco-progress"));
 	$("saveResult").addEventListener("click",()=>saveJson("ipip-hexaco-result"));
 	$("showEnQuiz").addEventListener("change",e=>{ showEnglish=e.target.checked; render(); });
+	$("autoAdvance").addEventListener("change",e=>{
+		autoAdvance=e.target.checked;
+		if(!autoAdvance && autoAdvanceTimer!==null){
+			clearTimeout(autoAdvanceTimer);
+			autoAdvanceTimer=null;
+		}
+	});
 	$("loadSession").addEventListener("change",e=>{ const f=e.target.files[0]; if(f)loadSession(f); e.target.value=""; });
 	$("compareFiles").addEventListener("change",e=>{ loadComparisons([...e.target.files]); e.target.value=""; });
 	$("copyPrompt").addEventListener("click",copyPrompt);
@@ -100,6 +109,7 @@ function init(){
 			const it=itemById(order[pos]);
 			answers.set(it.id,Number(e.key));
 			render();
+			scheduleAutoAdvance(it.id);
 		}
 	});
 }
@@ -135,6 +145,7 @@ function start(){
 	reviewDirty=false;
 	order=$("shuffle").checked?shuffleArray(ITEMS.map(x=>x.id)):ITEMS.map(x=>x.id);
 	showEnglish=$("showEnHome").checked;
+	autoAdvance=$("autoAdvance").checked;
 	$("home").classList.add("hidden");
 	$("resultPage").classList.add("hidden");
 	$("quiz").classList.remove("hidden");
@@ -150,6 +161,7 @@ function render(){
 	$("original").textContent=`原文: ${it.en}`;
 	$("original").classList.toggle("hidden",!showEnglish);
 	$("showEnQuiz").checked=showEnglish;
+	$("autoAdvance").checked=autoAdvance;
 	const box=$("answers");
 	box.innerHTML="";
 	for(let v=1;v<=5;v++){
@@ -162,7 +174,11 @@ function render(){
 		input.name="answer";
 		input.value=String(v);
 		input.checked=answers.get(it.id)===v;
-		input.addEventListener("change",()=>{ answers.set(it.id,v); renderProgress(); });
+		input.addEventListener("change",()=>{
+			answers.set(it.id,v);
+			renderProgress();
+			scheduleAutoAdvance(it.id);
+		});
 		n.textContent=String(v);
 		desc.className="answerLabel";
 		desc.textContent=LABELS[v-1];
@@ -188,7 +204,24 @@ function renderProgress(){
 	$("saveText").textContent=lastSave?`最終保存 ${lastSave.toLocaleTimeString()}`:"未保存";
 }
 
+function scheduleAutoAdvance(itemId){
+	if(!autoAdvance)return;
+	if(autoAdvanceTimer!==null)clearTimeout(autoAdvanceTimer);
+	const scheduledPos=pos;
+	autoAdvanceTimer=setTimeout(()=>{
+		autoAdvanceTimer=null;
+		if(!autoAdvance)return;
+		if($("quiz").classList.contains("hidden"))return;
+		if(pos!==scheduledPos || order[pos]!==itemId)return;
+		next();
+	},180);
+}
+
 function next(){
+	if(autoAdvanceTimer!==null){
+		clearTimeout(autoAdvanceTimer);
+		autoAdvanceTimer=null;
+	}
 	const it=itemById(order[pos]);
 	if(!answers.has(it.id)){ alert("この質問に回答してください。"); return; }
 	if(pos===ITEMS.length-1){
@@ -200,7 +233,13 @@ function next(){
 	render();
 }
 
-function prev(){ if(pos>0){ pos--; render(); } }
+function prev(){
+	if(autoAdvanceTimer!==null){
+		clearTimeout(autoAdvanceTimer);
+		autoAdvanceTimer=null;
+	}
+	if(pos>0){ pos--; render(); }
+}
 
 function similarGroupDifference(group){
 	const values=group.items.map(id=>keyed(itemById(id),answers.get(id)));
@@ -532,6 +571,7 @@ function session(){
 			position:pos,
 			order,
 			show_english:showEnglish,
+			auto_advance:autoAdvance,
 			review:{
 				complete:reviewComplete,
 				pass:reviewPass,
@@ -592,6 +632,7 @@ async function loadSession(file){
 		order=Array.isArray(o?.progress?.order)&&o.progress.order.length===240?o.progress.order.map(Number):Array.isArray(o.order)&&o.order.length===240?o.order.map(Number):ITEMS.map(x=>x.id);
 		pos=Math.max(0,Math.min(239,Number(o?.progress?.position??o.position)||0));
 		showEnglish=Boolean(o?.progress?.show_english??o.showEnglish);
+		autoAdvance=Boolean(o?.progress?.auto_advance);
 		startedAt=o?.assessment?.started_at||null;
 		reviewComplete=Boolean(o?.progress?.review?.complete);
 		reviewPass=Number(o?.progress?.review?.pass)||0;
