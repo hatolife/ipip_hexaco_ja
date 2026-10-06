@@ -43,6 +43,12 @@ let lastSave=null;
 let showEnglish=false;
 let startedAt=null;
 let comparisonSnapshots=[];
+let reviewQueue=[];
+let reviewPos=0;
+let reviewAcceptedKeys=new Set();
+let reviewPass=0;
+let reviewComplete=false;
+let reviewDirty=false;
 
 const $=id=>document.getElementById(id);
 
@@ -65,6 +71,11 @@ function init(){
 	$("loadSession").addEventListener("change",e=>{ const f=e.target.files[0]; if(f)loadSession(f); e.target.value=""; });
 	$("compareFiles").addEventListener("change",e=>{ loadComparisons([...e.target.files]); e.target.value=""; });
 	$("copyPrompt").addEventListener("click",copyPrompt);
+	$("reviewNext").addEventListener("click",reviewNext);
+	$("reviewAccept").addEventListener("click",reviewAccept);
+	$("reviewSave").addEventListener("click",()=>saveJson("ipip-hexaco-review"));
+	$("reviewShowEn").addEventListener("change",e=>{ showEnglish=e.target.checked; renderReview(); });
+	$("reviewAgain").addEventListener("click",()=>{ reviewAcceptedKeys=new Set(); reviewComplete=false; reviewPass=0; beginReview(); });
 	$("restart").addEventListener("click",()=>{ if(confirm("必要なら先にJSON保存してください。回答を消して最初からやり直しますか？")) location.reload(); });
 	document.addEventListener("keydown",e=>{
 		if(!$("quiz").classList.contains("hidden") && /^[1-5]$/.test(e.key)){
@@ -92,6 +103,12 @@ function start(){
 	lastSave=null;
 	startedAt=new Date().toISOString();
 	comparisonSnapshots=[];
+	reviewQueue=[];
+	reviewPos=0;
+	reviewAcceptedKeys=new Set();
+	reviewPass=0;
+	reviewComplete=false;
+	reviewDirty=false;
 	order=$("shuffle").checked?shuffleArray(ITEMS.map(x=>x.id)):ITEMS.map(x=>x.id);
 	showEnglish=$("showEnHome").checked;
 	$("home").classList.add("hidden");
@@ -144,7 +161,7 @@ function next(){
 	if(!answers.has(it.id)){ alert("この質問に回答してください。"); return; }
 	if(pos===ITEMS.length-1){
 		if(answers.size!==ITEMS.length){ alert("未回答があります。"); return; }
-		showResults();
+		beginReview();
 		return;
 	}
 	pos++;
@@ -152,6 +169,150 @@ function next(){
 }
 
 function prev(){ if(pos>0){ pos--; render(); } }
+
+function similarGroupDifference(group){
+	const values=group.items.map(id=>keyed(itemById(id),answers.get(id)));
+	return Math.max(...values)-Math.min(...values);
+}
+
+function reviewIssueStillRelevant(issue){
+	if(reviewAcceptedKeys.has(issue.key))return false;
+	if(issue.type==="neutral")return answers.get(issue.itemId)===3;
+	if(issue.type==="similar")return similarGroupDifference(issue.group)>issue.group.max_difference;
+	return false;
+}
+
+function buildReviewQueue(){
+	const queue=[];
+	for(const it of ITEMS){
+		if(answers.get(it.id)===3){
+			queue.push({type:"neutral",key:"neutral:"+it.id,itemId:it.id});
+		}
+	}
+	for(const group of SIMILAR_GROUPS){
+		if(similarGroupDifference(group)>group.max_difference){
+			queue.push({type:"similar",key:"similar:"+group.id,group});
+		}
+	}
+	return queue.filter(reviewIssueStillRelevant);
+}
+
+function beginReview(){
+	reviewPass++;
+	reviewQueue=buildReviewQueue();
+	reviewPos=0;
+	reviewDirty=false;
+	$("home").classList.add("hidden");
+	$("quiz").classList.add("hidden");
+	$("resultPage").classList.add("hidden");
+	$("reviewPage").classList.remove("hidden");
+	if(!reviewQueue.length){
+		reviewComplete=true;
+		showResults();
+		return;
+	}
+	renderReview();
+}
+
+function appendReviewScale(container,it,namePrefix){
+	const scale=document.createElement("div");
+	scale.className="answers reviewAnswers";
+	for(let v=1;v<=5;v++){
+		const label=document.createElement("label");
+		const input=document.createElement("input");
+		const n=document.createElement("b");
+		const desc=document.createElement("span");
+		input.type="radio";
+		input.name=namePrefix;
+		input.value=String(v);
+		input.checked=answers.get(it.id)===v;
+		input.addEventListener("change",()=>{
+			answers.set(it.id,v);
+			reviewDirty=true;
+			$("reviewDirty").textContent="回答を変更しました。次へ進むと再判定します。";
+		});
+		n.textContent=String(v);
+		desc.textContent=LABELS[v-1];
+		label.append(input,n,desc);
+		scale.append(label);
+	}
+	container.append(scale);
+}
+
+function appendReviewQuestion(container,it,index){
+	const card=document.createElement("div");
+	card.className="reviewQuestion";
+	const meta=document.createElement("div");
+	meta.className="muted small";
+	meta.textContent=`ID ${it.id}　${it.domain} / ${it.facetJa}　現在: ${answers.get(it.id)}（${LABELS[answers.get(it.id)-1]}）`;
+	const q=document.createElement("div");
+	q.className="reviewQuestionText";
+	q.textContent=it.ja;
+	card.append(meta,q);
+	if(it.note){
+		const note=document.createElement("div");
+		note.className="note";
+		note.textContent="判断の補足: "+it.note;
+		card.append(note);
+	}
+	if(showEnglish){
+		const en=document.createElement("div");
+		en.className="original";
+		en.textContent="原文: "+it.en;
+		card.append(en);
+	}
+	appendReviewScale(card,it,`review-${reviewPass}-${reviewPos}-${index}-${it.id}`);
+	container.append(card);
+}
+
+function renderReview(){
+	while(reviewPos<reviewQueue.length && !reviewIssueStillRelevant(reviewQueue[reviewPos]))reviewPos++;
+	if(reviewPos>=reviewQueue.length){
+		const remaining=buildReviewQueue();
+		if(!remaining.length){
+			reviewComplete=true;
+			showResults();
+			return;
+		}
+		reviewPass++;
+		reviewQueue=remaining;
+		reviewPos=0;
+	}
+	const issue=reviewQueue[reviewPos];
+	const box=$("reviewContent");
+	box.innerHTML="";
+	$("reviewShowEn").checked=showEnglish;
+	$("reviewDirty").textContent="";
+	$("reviewProgress").textContent=`見直し ${reviewPos+1} / ${reviewQueue.length}　（${reviewPass}周目）`;
+	if(issue.type==="neutral"){
+		$("reviewTitle").textContent="3（本当に中間）の回答を再確認";
+		$("reviewReason").textContent="この設問は3を選んでいます。「状況による」だけで3にしていないか、本当にどちら側とも言えないかをもう一度確認してください。3が適切ならそのまま確定できます。";
+		appendReviewQuestion(box,itemById(issue.itemId),0);
+		$("reviewAccept").textContent="3のままで確定";
+	}else{
+		$("reviewTitle").textContent="似た質問どうしの回答を再確認";
+		const diff=similarGroupDifference(issue.group);
+		$("reviewReason").textContent=`${issue.group.reason} 逆転項目は内部で向きをそろえて比較したところ、回答傾向に ${diff} 段階の差があります。質問は完全同義ではないため、差に理由があるならそのまま確定して構いません。`;
+		issue.group.items.forEach((id,i)=>appendReviewQuestion(box,itemById(id),i));
+		$("reviewAccept").textContent="この差で確定";
+	}
+	$("reviewNext").textContent="変更を反映して次へ";
+	window.scrollTo({top:0,behavior:"instant"});
+}
+
+function reviewNext(){
+	reviewDirty=false;
+	reviewPos++;
+	renderReview();
+}
+
+function reviewAccept(){
+	const issue=reviewQueue[reviewPos];
+	reviewAcceptedKeys.add(issue.key);
+	reviewDirty=false;
+	reviewPos++;
+	renderReview();
+}
 
 function keyed(it,v){ return it.key==="+"?v:6-v; }
 
@@ -182,6 +343,7 @@ function band(v){
 function showResults(){
 	renderResults();
 	$("quiz").classList.add("hidden");
+	$("reviewPage").classList.add("hidden");
 	$("home").classList.add("hidden");
 	$("resultPage").classList.remove("hidden");
 	updateNarrative();
@@ -305,7 +467,8 @@ function responseArray(map=answers){
 }
 
 function session(){
-	const completed=answers.size===ITEMS.length;
+	const fullyAnswered=answers.size===ITEMS.length;
+	const completed=fullyAnswered&&reviewComplete;
 	const now=new Date().toISOString();
 	const label=$("recordLabel").value.trim();
 	const date=$("assessmentDate").value||todayLocal();
@@ -328,11 +491,16 @@ function session(){
 		progress:{
 			position:pos,
 			order,
-			show_english:showEnglish
+			show_english:showEnglish,
+			review:{
+				complete:reviewComplete,
+				pass:reviewPass,
+				accepted:[...reviewAcceptedKeys]
+			}
 		},
 		answers:Object.fromEntries([...answers.entries()].map(([k,v])=>[String(k),v])),
 		responses:responseArray(),
-		scores:completed?calc():null
+		scores:fullyAnswered?calc():null
 	};
 }
 
@@ -385,11 +553,23 @@ async function loadSession(file){
 		pos=Math.max(0,Math.min(239,Number(o?.progress?.position??o.position)||0));
 		showEnglish=Boolean(o?.progress?.show_english??o.showEnglish);
 		startedAt=o?.assessment?.started_at||null;
+		reviewComplete=Boolean(o?.progress?.review?.complete);
+		reviewPass=Number(o?.progress?.review?.pass)||0;
+		reviewAcceptedKeys=new Set(Array.isArray(o?.progress?.review?.accepted)?o.progress.review.accepted:[]);
 		$("recordLabel").value=o?.assessment?.label||"";
 		$("assessmentDate").value=o?.assessment?.date||todayLocal();
 		$("home").classList.add("hidden");
-		if(answers.size===240) showResults();
-		else { $("quiz").classList.remove("hidden"); render(); }
+		if(answers.size===240){
+			if(o?.assessment?.status==="completed" || reviewComplete){
+				reviewComplete=true;
+				showResults();
+			}else{
+				beginReview();
+			}
+		}else{
+			$("quiz").classList.remove("hidden");
+			render();
+		}
 	}catch(e){ alert("JSONを読み込めませんでした: "+e.message); }
 }
 
