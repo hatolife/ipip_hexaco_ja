@@ -551,8 +551,8 @@
       "facet_ja": "恐れやすさ",
       "key": "-",
       "original": "Would be good at rescuing people from a burning building.",
-      "translation": "火事の建物から人を救い出すような、身体的危険の大きい場面でも、恐怖に負けず適切に行動できると思う。",
-      "guidance": "消防の技能があるかではなく、強い身体的危険の中でも恐怖に圧倒されず動けそうかを考えてください。"
+      "translation": "燃えている建物から人を救出するような危険な場面でも、うまく行動できると思う。",
+      "guidance": "実際の消防技術の有無ではなく、強い身体的危険がある場面でも自分は対処できそうだと感じるかを考えてください。"
     },
     {
       "id": 50,
@@ -1002,7 +1002,7 @@
       "facet_ja": "表現性",
       "key": "-",
       "original": "Speak softly.",
-      "translation": "話す声は、音量や勢いが控えめな方だ。",
+      "translation": "話す声は、比較的小さく控えめな方だ。",
       "guidance": ""
     },
     {
@@ -1244,7 +1244,7 @@
       "facet_ja": "活発さ",
       "key": "+",
       "original": "Have great stamina.",
-      "translation": "長時間活動しても持ちこたえられる体力・持久力がある。",
+      "translation": "長時間活動しても持ちこたえられる持久力がある。",
       "guidance": ""
     },
     {
@@ -1596,8 +1596,8 @@
       "facet_ja": "柔軟さ",
       "key": "-",
       "original": "React strongly to criticism.",
-      "translation": "自分を批判されると、感情的・防御的に強く反応する方だ。",
-      "guidance": ""
+      "translation": "批判されると、強く反応する方だ。",
+      "guidance": "批判の内容が正しいかどうかではなく、批判を受けたときの反応の強さを考えてください。"
     },
     {
       "id": 145,
@@ -1981,7 +1981,7 @@
       "facet_ja": "勤勉さ",
       "key": "-",
       "original": "Hang around doing nothing.",
-      "translation": "やることがあっても、何もせずだらだら時間を過ごすことがある。",
+      "translation": "何もせず、だらだら時間を過ごすことがある。",
       "guidance": ""
     },
     {
@@ -2113,7 +2113,7 @@
       "facet_ja": "慎重さ",
       "key": "+",
       "original": "Avoid mistakes.",
-      "translation": "行動する前に確認するなどして、できるだけミスを起こさないようにする。",
+      "translation": "ミスを避けるようにしている。",
       "guidance": ""
     },
     {
@@ -2212,7 +2212,7 @@
       "facet_ja": "慎重さ",
       "key": "-",
       "original": "Make a fool of myself.",
-      "translation": "よく考えずに振る舞って、後から自分でも恥ずかしいと思うようなことをすることがある。",
+      "translation": "自分でも恥ずかしいと思うような振る舞いをしてしまうことがある。",
       "guidance": ""
     },
     {
@@ -2421,7 +2421,7 @@
       "facet_ja": "探究心",
       "key": "-",
       "original": "Don't bother worrying about political and social problems.",
-      "translation": "政治や社会で起きている問題について、自分から関心を持って考えようとはあまりしない。",
+      "translation": "政治や社会の問題について、わざわざ気にかけたり考えたりしない。",
       "guidance": ""
     },
     {
@@ -2586,8 +2586,8 @@
       "facet_ja": "非慣習性",
       "key": "+",
       "original": "Rebel against authority.",
-      "translation": "立場が上だからという理由だけで従うのではなく、権威そのものに反発することがある。",
-      "guidance": "正当な指示まで何でも拒否するかではなく、『権威だから従う』ことへの反発の強さを考えてください。"
+      "translation": "権威に反発することがある。",
+      "guidance": "正当な指示まで何でも拒否するかではなく、権威や権威的な立場そのものに反発する傾向があるかを考えてください。"
     },
     {
       "id": 235,
