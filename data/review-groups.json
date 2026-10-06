@@ -1,0 +1,159 @@
+{
+  "schema": "ipip-hexaco-ja-review-groups-v1",
+  "note": "Groups are only for end-of-questionnaire consistency review. They do not alter scoring. Compare trait-aligned scores after reverse-key handling.",
+  "groups": [
+    {
+      "id": "sincerity-impress",
+      "items": [
+        4,
+        6
+      ],
+      "max_difference": 0,
+      "reason": "どちらも、人によく思われるために演じたり見せ方を変えたりする内容です。"
+    },
+    {
+      "id": "fairness-theft",
+      "items": [
+        11,
+        18
+      ],
+      "max_difference": 0,
+      "reason": "どちらも他人の物を盗むことへの態度を、正方向と逆方向から尋ねています。"
+    },
+    {
+      "id": "modesty-average",
+      "items": [
+        32,
+        33,
+        34
+      ],
+      "max_difference": 1,
+      "reason": "いずれも、自分を特別ではなく平均的・普通の人間だと見る傾向を尋ねています。"
+    },
+    {
+      "id": "anxiety-worry",
+      "items": [
+        52,
+        56
+      ],
+      "max_difference": 0,
+      "reason": "どちらも、普段どの程度心配するかを正方向と逆方向から尋ねています。"
+    },
+    {
+      "id": "sentimentality-movie-cry",
+      "items": [
+        73,
+        76
+      ],
+      "max_difference": 0,
+      "reason": "どちらも、悲しい映画などで涙が出る傾向を正方向と逆方向から尋ねています。"
+    },
+    {
+      "id": "expressiveness-talk",
+      "items": [
+        81,
+        86,
+        88
+      ],
+      "max_difference": 1,
+      "reason": "いずれも、普段の口数の多さ・少なさを尋ねています。"
+    },
+    {
+      "id": "social-boldness-attention",
+      "items": [
+        92,
+        99
+      ],
+      "max_difference": 0,
+      "reason": "どちらも、自分が注目の中心になることへの抵抗感を正方向と逆方向から尋ねています。"
+    },
+    {
+      "id": "forgiveness",
+      "items": [
+        122,
+        123,
+        125
+      ],
+      "max_difference": 1,
+      "reason": "いずれも、嫌なことをした相手を許しやすいかを尋ねています。"
+    },
+    {
+      "id": "patience-irritated",
+      "items": [
+        154,
+        158
+      ],
+      "max_difference": 0,
+      "reason": "どちらも、いら立ちやすさを正方向と逆方向から尋ねています。"
+    },
+    {
+      "id": "patience-angry",
+      "items": [
+        152,
+        157
+      ],
+      "max_difference": 1,
+      "reason": "どちらも、人に対して怒りを感じやすいかを近い角度から尋ねています。"
+    },
+    {
+      "id": "organization-mess",
+      "items": [
+        161,
+        166,
+        167
+      ],
+      "max_difference": 1,
+      "reason": "いずれも、身の回りを整理して保つか、散らかったままにするかを尋ねています。"
+    },
+    {
+      "id": "diligence-work",
+      "items": [
+        174,
+        176,
+        178
+      ],
+      "max_difference": 1,
+      "reason": "いずれも、必要な仕事量よりしっかり努力するか、最低限・少なめで済ませるかを尋ねています。"
+    },
+    {
+      "id": "perfectionism-detail",
+      "items": [
+        181,
+        189
+      ],
+      "max_difference": 0,
+      "reason": "どちらも、細部へ十分注意を向けるかを正方向と逆方向から尋ねています。"
+    },
+    {
+      "id": "prudence-impulsive",
+      "items": [
+        194,
+        195,
+        196
+      ],
+      "max_difference": 1,
+      "reason": "いずれも、十分考える前に行動・判断する傾向を近い角度から尋ねています。"
+    },
+    {
+      "id": "creativity-imagination",
+      "items": [
+        221,
+        227,
+        228
+      ],
+      "max_difference": 1,
+      "reason": "いずれも、頭の中で場面や可能性を思い描く想像力を尋ねています。"
+    },
+    {
+      "id": "unconventional-normal",
+      "items": [
+        236,
+        237,
+        238,
+        239
+      ],
+      "max_difference": 1,
+      "reason": "いずれも、周囲から『普通・主流・型どおり』と思われることへの好みや抵抗を尋ねています。"
+    }
+  ]
+}
