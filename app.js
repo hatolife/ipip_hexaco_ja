@@ -56,19 +56,30 @@ let reviewAcceptedKeys=new Set();
 let reviewPass=0;
 let reviewComplete=false;
 let reviewDirty=false;
+let autoRecordLabel="";
+let assessmentDateValue="";
 
 const $=id=>document.getElementById(id);
 
-function todayLocal(){
-	const d=new Date();
+function todayLocal(d=new Date()){
 	const y=d.getFullYear();
 	const m=String(d.getMonth()+1).padStart(2,"0");
 	const day=String(d.getDate()).padStart(2,"0");
 	return `${y}-${m}-${day}`;
 }
 
+function timestampLabel(d=new Date()){
+	const hh=String(d.getHours()).padStart(2,"0");
+	const mm=String(d.getMinutes()).padStart(2,"0");
+	const ss=String(d.getSeconds()).padStart(2,"0");
+	return `${todayLocal(d)} ${hh}:${mm}:${ss}`;
+}
+
 function init(){
-	$("assessmentDate").value=todayLocal();
+	const now=new Date();
+	autoRecordLabel=timestampLabel(now);
+	assessmentDateValue=todayLocal(now);
+	$("recordLabel").value=autoRecordLabel;
 	$("start").addEventListener("click",start);
 	$("next").addEventListener("click",next);
 	$("prev").addEventListener("click",prev);
@@ -108,7 +119,13 @@ function start(){
 	answers=new Map();
 	pos=0;
 	lastSave=null;
-	startedAt=new Date().toISOString();
+	const started=new Date();
+	startedAt=started.toISOString();
+	assessmentDateValue=todayLocal(started);
+	if(!$("recordLabel").value.trim() || $("recordLabel").value===autoRecordLabel){
+		autoRecordLabel=timestampLabel(started);
+		$("recordLabel").value=autoRecordLabel;
+	}
 	comparisonSnapshots=[];
 	reviewQueue=[];
 	reviewPos=0;
@@ -493,8 +510,8 @@ function session(){
 	const fullyAnswered=answers.size===ITEMS.length;
 	const completed=fullyAnswered&&reviewComplete;
 	const now=new Date().toISOString();
-	const label=$("recordLabel").value.trim();
-	const date=$("assessmentDate").value||todayLocal();
+	const label=$("recordLabel").value.trim()||autoRecordLabel||timestampLabel();
+	const date=assessmentDateValue||todayLocal();
 	return {
 		schema:"ipip-hexaco-ja-result-v3",
 		instrument:{
@@ -579,8 +596,9 @@ async function loadSession(file){
 		reviewComplete=Boolean(o?.progress?.review?.complete);
 		reviewPass=Number(o?.progress?.review?.pass)||0;
 		reviewAcceptedKeys=new Set(Array.isArray(o?.progress?.review?.accepted)?o.progress.review.accepted:[]);
-		$("recordLabel").value=o?.assessment?.label||"";
-		$("assessmentDate").value=o?.assessment?.date||todayLocal();
+		$("recordLabel").value=o?.assessment?.label||timestampLabel();
+		autoRecordLabel=$("recordLabel").value;
+		assessmentDateValue=o?.assessment?.date||todayLocal();
 		$("home").classList.add("hidden");
 		if(answers.size===240){
 			if(o?.assessment?.status==="completed" || reviewComplete){
@@ -608,8 +626,8 @@ function snapshotFromObject(o,fileName){
 
 function currentSnapshot(){
 	return {
-		label:$("recordLabel").value.trim()||"今回",
-		date:$("assessmentDate").value||todayLocal(),
+		label:$("recordLabel").value.trim()||autoRecordLabel||"今回",
+		date:assessmentDateValue||todayLocal(),
 		saved:new Date().toISOString(),
 		fileName:"current",
 		map:new Map(answers),
