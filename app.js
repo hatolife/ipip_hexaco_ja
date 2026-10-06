@@ -214,6 +214,13 @@ function beginReview(){
 	renderReview();
 }
 
+function invalidateReviewAcceptance(itemId){
+	reviewAcceptedKeys.delete("neutral:"+itemId);
+	for(const group of SIMILAR_GROUPS){
+		if(group.items.includes(itemId))reviewAcceptedKeys.delete("similar:"+group.id);
+	}
+}
+
 function appendReviewScale(container,it,namePrefix){
 	const scale=document.createElement("div");
 	scale.className="answers reviewAnswers";
@@ -228,6 +235,7 @@ function appendReviewScale(container,it,namePrefix){
 		input.checked=answers.get(it.id)===v;
 		input.addEventListener("change",()=>{
 			answers.set(it.id,v);
+			invalidateReviewAcceptance(it.id);
 			reviewDirty=true;
 			$("reviewDirty").textContent="回答を変更しました。次へ進むと再判定します。";
 		});
@@ -473,7 +481,7 @@ function session(){
 	const label=$("recordLabel").value.trim();
 	const date=$("assessmentDate").value||todayLocal();
 	return {
-		schema:"ipip-hexaco-ja-result-v2",
+		schema:"ipip-hexaco-ja-result-v3",
 		instrument:{
 			name:"IPIP-HEXACO 240",
 			item_schema:ITEM_DATA.schema,
@@ -486,7 +494,7 @@ function session(){
 			started_at:startedAt,
 			saved_at:now,
 			completed_at:completed?now:null,
-			status:completed?"completed":"in_progress"
+			status:completed?"completed":fullyAnswered?"reviewing":"in_progress"
 		},
 		progress:{
 			position:pos,
