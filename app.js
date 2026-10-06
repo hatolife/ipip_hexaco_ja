@@ -35,6 +35,13 @@ const FACET_DESC={
 	Unconventionality:"慣習や多数派から外れる考え方・振る舞いを受け入れる傾向。"
 };
 const LABELS=["ほぼ当てはまらない","あまり当てはまらない","本当に中間","やや当てはまる","かなり当てはまる"];
+const ANSWER_DETAILS=[
+	["明確に反対側","普段はほとんど当てはまらない","頻度なら0〜1 / 10程度","例外的に当てはまることはあってよい"],
+	["どちらかといえば反対側","基本は当てはまらない","頻度なら2〜4 / 10程度","反対側が多いが、逆もそれなりにある"],
+	["両側がほぼ同程度","どちらとも言えない","頻度ならほぼ5 / 10","「状況次第」というだけでは選ばない"],
+	["どちらかといえばこちら側","基本は当てはまる","頻度なら6〜8 / 10程度","こちら側が多いが、逆もそれなりにある"],
+	["明確にこちら側","普段はかなり当てはまる","頻度なら9〜10 / 10程度","例外的に反対になることはあってよい"]
+];
 const DOMAIN_ORDER=["H","E","X","A","C","O"];
 let order=[];
 let answers=new Map();
@@ -133,14 +140,22 @@ function render(){
 		const input=document.createElement("input");
 		const n=document.createElement("b");
 		const desc=document.createElement("span");
+		const details=document.createElement("span");
 		input.type="radio";
 		input.name="answer";
 		input.value=String(v);
 		input.checked=answers.get(it.id)===v;
 		input.addEventListener("change",()=>{ answers.set(it.id,v); renderProgress(); });
 		n.textContent=String(v);
+		desc.className="answerLabel";
 		desc.textContent=LABELS[v-1];
-		label.append(input,n,desc);
+		details.className="answerDetails";
+		for(const line of ANSWER_DETAILS[v-1]){
+			const detail=document.createElement("span");
+			detail.textContent=line;
+			details.append(detail);
+		}
+		label.append(input,n,desc,details);
 		box.append(label);
 	}
 	$("prev").disabled=pos===0;
