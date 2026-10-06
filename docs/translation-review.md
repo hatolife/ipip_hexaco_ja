@@ -40,4 +40,6 @@ The review used these rules:
 | 226 | Have excellent ideas. | Removed added criteria such as usefulness or interestingness. |
 | 237 | Enjoy being thought of as a normal "mainstream" person. | Changed "feel reassured" to the closer "feel comfortable/enjoy". |
 
+Additional second-pass corrections removed remaining source-unjustified implications from IDs 49, 90, 112, 144, 179, 191, 200, 219, and 234. In particular, facet context is now kept in guidance where needed instead of being silently inserted into the scored statement.
+
 The remaining items were also checked and retained where the existing Japanese wording already preserved the original nuance without introducing a material ambiguity.
