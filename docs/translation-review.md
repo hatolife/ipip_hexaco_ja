@@ -43,3 +43,21 @@ The review used these rules:
 Additional second-pass corrections removed remaining source-unjustified implications from IDs 49, 90, 112, 144, 179, 191, 200, 219, and 234. In particular, facet context is now kept in guidance where needed instead of being silently inserted into the scored statement.
 
 The remaining items were also checked and retained where the existing Japanese wording already preserved the original nuance without introducing a material ambiguity.
+
+## Third review pass
+
+A third full pass was performed on 2026-10-06 with extra emphasis on keeping the scored Japanese statement no stronger, narrower, or more conditional than the English source.
+
+Notable changes:
+
+- Removed source-unjustified conditions such as 「特別な理由がない限り」 from item 15.
+- Removed added intensity from items such as 43, 54, 61, 63, and 70.
+- Removed added motives or contexts from items 19, 30, 39, 101, 108, 110, 140, 192, 201, 220, 222, 224, and 225.
+- Reworked item 8 so that `Act like different people` is not overstated as a change in personality itself.
+- Reworked items 127 and 128 to preserve behavioral retaliation rather than weakening them into mere desire.
+- Reworked item 142 (`Am good at taking advice.`) so that the scored statement no longer adds the condition 「妥当なら」; interpretation help is kept in guidance.
+- Simplified items 183, 188, 202, 210, 212, 214, 227, and 232 to stay closer to the source while remaining natural Japanese.
+- Reworked item 235 (`Swim against the current.`) so that the scored statement does not add a rationalizing condition; guidance explains the intended nonconformity construct.
+- Added or refined guidance for items where a literal Japanese reading would still invite a materially different interpretation.
+
+The scored statement remains the primary translation. Guidance is intentionally non-scored explanatory text and should not be treated as part of the original IPIP item.
