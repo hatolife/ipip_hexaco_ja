@@ -116,3 +116,12 @@ IPIP公式は、IPIPの項目・尺度・inventoryをpublic domainとしてお�
 この日本語訳は独自訳です。240項目すべて英語原文と照合してレビューしていますが、心理測定学的な標準化・妥当性検証を行った公式日本語版ではありません。
 
 医療・臨床診断、採用選考その他の重大な判断には使用しないでください。
+
+
+## 公開
+
+公開先は `https://hexaco.hato.life/` を想定しています。
+
+GitHub Pages は `main` ブランチのリポジトリルートをそのまま公開元にできます。このリポジトリには `CNAME` と `.nojekyll` を含めています。
+
+DNS は `hexaco.hato.life` の CNAME を `hatolife.github.io` へ向けます。
