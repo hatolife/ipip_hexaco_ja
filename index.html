@@ -49,6 +49,18 @@
 <p><strong>注意:</strong> この日本語訳は240項目すべて原文と突き合わせてレビューしていますが、心理測定学的な標準化・妥当性検証を行った公式日本語版ではありません。医療・臨床診断、採用など重大な判断には使用しないでください。</p>
 </div>
 
+<div class="card small muted">
+<details>
+<summary>出典・採点・ライセンスについて</summary>
+<p>原項目: International Personality Item Pool (IPIP), Preliminary IPIP Scales Measuring Constructs Similar to Those Included in the HEXACO Personality Inventory.</p>
+<p>https://ipip.ori.org/newhexaco_pi_key.htm</p>
+<p>IPIP公式は項目・尺度・inventoryをpublic domainとしており、コピー・編集・翻訳・商用/非商用利用を許可しています。</p>
+<p>Ashton, M. C., Lee, K., & Goldberg, L. R. (2007). The IPIP–HEXACO scales: An alternative, public-domain measure of the personality constructs in the HEXACO model.</p>
+<p>正方向項目は回答値をそのまま、逆方向項目は 6 - 回答値。各下位尺度は10項目、各因子は40項目の平均です。</p>
+<p>コードと独自日本語訳はMIT Licenseです。英語IPIP原項目は上流のpublic domainを尊重し、再ライセンスしません。詳細は LICENSE / NOTICE.md を参照してください。</p>
+</details>
+</div>
+
 <div class="controls">
 <button id="start">開始</button>
 <label class="fileButton secondary" for="loadSession">途中・完了JSONを読み込む</label><input id="loadSession" type="file" accept=".json,application/json">
@@ -114,9 +126,6 @@
 <div class="controls"><button id="copyPrompt">プロンプトをコピー</button><span id="copyStatus" class="muted"></span></div>
 </div>
 
-<div class="controls"><button id="saveResult">回答＋結果をJSON保存</button><button id="reviewAgain" class="secondary">回答見直しをもう一度</button><button id="restart" class="secondary">最初から</button></div>
-</section>
-
 <div class="card small muted">
 <details>
 <summary>出典・採点・ライセンスについて</summary>
@@ -128,6 +137,11 @@
 <p>コードと独自日本語訳はMIT Licenseです。英語IPIP原項目は上流のpublic domainを尊重し、再ライセンスしません。詳細は LICENSE / NOTICE.md を参照してください。</p>
 </details>
 </div>
+
+<div class="controls"><button id="saveResult">回答＋結果をJSON保存</button><button id="reviewAgain" class="secondary">回答見直しをもう一度</button><button id="restart" class="secondary">最初から</button></div>
+</section>
+
+
 </main>
 <script src="./items.generated.js"></script>
 <script src="./review-groups.generated.js"></script>
