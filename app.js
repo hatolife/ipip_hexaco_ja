@@ -440,7 +440,12 @@ function updateComparison(){
 		return;
 	}
 	const snaps=[...comparisonSnapshots,currentSnapshot()].sort((a,b)=>(a.date||a.saved).localeCompare(b.date||b.saved));
-	let html='<h3>6因子</h3><div class="tableScroll"><table><thead><tr><th>因子</th>'+snaps.map(s=>`<th>${escapeHtml(snapshotTitle(s))}</th>`).join("")+'</tr></thead><tbody>';
+	const first=snaps[0],last=snaps[snaps.length-1];
+	const domainDiffs=DOMAIN_ORDER.map(d=>({d,diff:last.scores.domains[d]-first.scores.domains[d]})).sort((a,b)=>Math.abs(b.diff)-Math.abs(a.diff));
+	const changedAnswers=ITEMS.filter(it=>first.map.get(it.id)!==last.map.get(it.id)).length;
+	const diffText=domainDiffs.slice(0,3).map(x=>`${x.d} ${x.diff>=0?"+":""}${x.diff.toFixed(2)}`).join("、");
+	let html=`<div class="compareSummary"><b>${escapeHtml(snapshotTitle(first))} → ${escapeHtml(snapshotTitle(last))}</b>: 6因子で変化量が大きい順に ${diffText}。240問中 ${changedAnswers} 問で生の回答が変わっています。</div>`;
+	html+='<h3>6因子</h3><div class="tableScroll"><table><thead><tr><th>因子</th>'+snaps.map(s=>`<th>${escapeHtml(snapshotTitle(s))}</th>`).join("")+'</tr></thead><tbody>';
 	for(const d of DOMAIN_ORDER){
 		html+=`<tr><td>${d} — ${escapeHtml(DOMAIN_DESC[d][0])}</td>`;
 		for(const s of snaps)html+=`<td>${s.scores.domains[d].toFixed(2)}</td>`;
@@ -462,9 +467,11 @@ function updateComparison(){
 	html+='<h3>240問の回答</h3><p class="small muted">数値はその時点で選んだ生の回答です。逆転項目でも反転前の1〜5を表示します。</p><div class="tableScroll questionCompare"><table><thead><tr><th>ID / 質問</th>'+snaps.map(s=>`<th>${escapeHtml(snapshotTitle(s))}</th>`).join("")+'</tr></thead><tbody>';
 	for(const it of ITEMS){
 		html+=`<tr><td><b>${it.id}</b> ${escapeHtml(it.ja)}</td>`;
-		for(const s of snaps){
-			const v=s.map.get(it.id);
-			html+=`<td title="${v?escapeHtml(LABELS[v-1]):""}">${v??"—"}</td>`;
+		for(let si=0;si<snaps.length;si++){
+			const s=snaps[si],v=s.map.get(it.id);
+			const prev=si>0?snaps[si-1].map.get(it.id):v;
+			const cls=si>0&&v!==prev?"changedAnswer":"";
+			html+=`<td class="${cls}" title="${v?escapeHtml(LABELS[v-1]):""}">${v??"—"}</td>`;
 		}
 		html+="</tr>";
 	}
