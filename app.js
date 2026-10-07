@@ -156,10 +156,12 @@ function render(){
 	const it=itemById(order[pos]);
 	$("questionNo").textContent=`質問 ${pos+1} / ${ITEMS.length}　ID ${it.id}　${it.domain} / ${it.facetJa}`;
 	$("question").textContent=it.ja;
-	$("note").textContent=it.note?`判断の補足: ${it.note}`:"";
-	$("note").classList.toggle("hidden",!it.note);
 	$("original").textContent=`原文: ${it.en}`;
 	$("original").classList.toggle("hidden",!showEnglish);
+	$("literal").textContent=`原文の直訳: ${it.literalJa}`;
+	$("literal").classList.toggle("hidden",!showEnglish);
+	$("note").textContent=it.note?`補足: ${it.note}`:"補足: 特別な例外ではなく、ここ数か月〜数年の普段の自分にどの程度当てはまるかで判断してください。";
+	$("note").classList.remove("hidden");
 	$("showEnQuiz").checked=showEnglish;
 	$("autoAdvance").checked=autoAdvance;
 	const box=$("answers");
@@ -328,18 +330,20 @@ function appendReviewQuestion(container,it,index){
 	q.className="reviewQuestionText";
 	q.textContent=it.ja;
 	card.append(meta,q);
-	if(it.note){
-		const note=document.createElement("div");
-		note.className="note";
-		note.textContent="判断の補足: "+it.note;
-		card.append(note);
-	}
 	if(showEnglish){
 		const en=document.createElement("div");
 		en.className="original";
 		en.textContent="原文: "+it.en;
 		card.append(en);
+		const literal=document.createElement("div");
+		literal.className="literal";
+		literal.textContent="原文の直訳: "+it.literalJa;
+		card.append(literal);
 	}
+	const note=document.createElement("div");
+	note.className="note";
+	note.textContent=it.note?"補足: "+it.note:"補足: 特別な例外ではなく、ここ数か月〜数年の普段の自分にどの程度当てはまるかで判断してください。";
+	card.append(note);
 	appendReviewScale(card,it,`review-${reviewPass}-${reviewPos}-${index}-${it.id}`);
 	container.append(card);
 }
@@ -538,6 +542,7 @@ function responseArray(map=answers){
 		key:it.key,
 		original:it.en,
 		translation:it.ja,
+		literal_translation:it.literalJa,
 		guidance:it.note||"",
 		answer:map.get(it.id),
 		answer_label:LABELS[map.get(it.id)-1],
