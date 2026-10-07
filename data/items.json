@@ -24,7 +24,8 @@
       "key": "+",
       "original": "Don't pretend to be more than I am.",
       "translation": "実際の自分以上の人物であるかのように装うことはしない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "実際の自分以上の者であるふりはしない。"
     },
     {
       "id": 2,
@@ -35,7 +36,8 @@
       "key": "-",
       "original": "Use flattery to get ahead.",
       "translation": "自分が有利になるために、相手を持ち上げたりお世辞を言ったりすることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分が先へ進むために、お世辞を使う。"
     },
     {
       "id": 3,
@@ -46,7 +48,8 @@
       "key": "-",
       "original": "Tell other people what they want to hear so that they will do what I want them to do.",
       "translation": "相手を自分の望むように動かすために、相手が聞きたがっていることを意図的に言うことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "相手に自分の望むことをしてもらうために、その人が聞きたがることを言う。"
     },
     {
       "id": 4,
@@ -57,7 +60,8 @@
       "key": "-",
       "original": "Put on a show to impress people.",
       "translation": "人によく思われるために、わざと自分を大きく見せたり、大げさに振る舞ったりすることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "人に強い印象を与えるために、見せかけの振る舞いをする。"
     },
     {
       "id": 5,
@@ -68,7 +72,8 @@
       "key": "-",
       "original": "Switch my loyalties when I feel like it.",
       "translation": "自分の都合や気分次第で、それまで支持・味方していた相手から別の側へ乗り換えることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "そうしたいと感じたときには、忠誠を向ける相手を変える。"
     },
     {
       "id": 6,
@@ -79,7 +84,8 @@
       "key": "-",
       "original": "Play a role in order to impress people.",
       "translation": "人によく思われるために、本来の自分とは違う人物を演じることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "人に強い印象を与えるために、役を演じる。"
     },
     {
       "id": 7,
@@ -90,7 +96,8 @@
       "key": "-",
       "original": "Pretend to be concerned for others.",
       "translation": "本当はそれほど気にかけていなくても、相手を心配している・気遣っているふりをすることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人を気にかけているふりをする。"
     },
     {
       "id": 8,
@@ -101,7 +108,8 @@
       "key": "-",
       "original": "Act like different people in different situations.",
       "translation": "状況によって、まるで違う人のように振る舞うことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "状況によって、別人のように振る舞う。"
     },
     {
       "id": 9,
@@ -112,7 +120,8 @@
       "key": "-",
       "original": "Find it necessary to please the people who have power.",
       "translation": "権力や影響力を持つ人には、気に入られておく必要があると思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "力を持つ人たちを喜ばせる必要があると感じる。"
     },
     {
       "id": 10,
@@ -123,7 +132,8 @@
       "key": "-",
       "original": "Let people push me around to help them feel important.",
       "translation": "相手に『自分には力がある』『自分は重要な存在だ』と感じさせるために、あえて相手に押し切られるままにすることがある。",
-      "guidance": "単に『相手の意見が正しいと思って従う』ことではありません。相手の自尊心や優越感を満たす目的で、押し切られることを許す傾向を聞いています。"
+      "guidance": "単に『相手の意見が正しいと思って従う』ことではありません。相手の自尊心や優越感を満たす目的で、押し切られることを許す傾向を聞いています。",
+      "literal_ja": "相手に自分が重要だと感じさせるために、相手の言いなりになる。"
     },
     {
       "id": 11,
@@ -134,7 +144,8 @@
       "key": "+",
       "original": "Would never take things that aren't mine.",
       "translation": "自分のものではない物を勝手に取ることは決してしないと思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分の物ではないものを取ることは決してしないだろう。"
     },
     {
       "id": 12,
@@ -145,7 +156,8 @@
       "key": "+",
       "original": "Would never cheat on my taxes.",
       "translation": "税金をごまかして自分の負担を不正に減らすことは決してしないと思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "税金をごまかすことは決してしないだろう。"
     },
     {
       "id": 13,
@@ -156,7 +168,8 @@
       "key": "+",
       "original": "Return extra change when a cashier makes a mistake.",
       "translation": "店員のミスで釣り銭を多く受け取ったと気づいたら、その余分な分を返す。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "店員が間違えたとき、余分にもらった釣り銭を返す。"
     },
     {
       "id": 14,
@@ -167,7 +180,8 @@
       "key": "+",
       "original": "Would feel very badly for a long time if I were to steal from someone.",
       "translation": "もし誰かの物を盗んだとしたら、長いあいだ強い罪悪感を覚えると思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "もし誰かから物を盗んだら、長い間とても悪く感じるだろう。"
     },
     {
       "id": 15,
@@ -178,7 +192,8 @@
       "key": "+",
       "original": "Try to follow the rules.",
       "translation": "ルールには従うようにしている。",
-      "guidance": "ルールが絶対に正しいと思うかではなく、普段どの程度ルールに従おうとする側かを考えてください。"
+      "guidance": "ルールが絶対に正しいと思うかではなく、普段どの程度ルールに従おうとする側かを考えてください。",
+      "literal_ja": "規則に従おうとする。"
     },
     {
       "id": 16,
@@ -189,7 +204,8 @@
       "key": "-",
       "original": "Admire a really clever scam.",
       "translation": "とても巧妙に仕組まれた詐欺を見ると、その手口のうまさに感心することがある。",
-      "guidance": "詐欺を道徳的に支持するかではなく、手口の巧妙さそのものに感心することがあるか、という問いです。"
+      "guidance": "詐欺を道徳的に支持するかではなく、手口の巧妙さそのものに感心することがあるか、という問いです。",
+      "literal_ja": "本当に巧妙な詐欺には感心する。"
     },
     {
       "id": 17,
@@ -200,7 +216,8 @@
       "key": "-",
       "original": "Cheat to get ahead.",
       "translation": "自分が有利な立場になるためなら、不正な手段を使うことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "先へ進むために、不正をする。"
     },
     {
       "id": 18,
@@ -211,7 +228,8 @@
       "key": "-",
       "original": "Steal things.",
       "translation": "他人の物を盗むことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "物を盗む。"
     },
     {
       "id": 19,
@@ -222,7 +240,8 @@
       "key": "-",
       "original": "Cheat on people who have trusted me.",
       "translation": "自分を信頼してくれている人を、だましたり裏切ったりすることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分を信頼した人をだます。"
     },
     {
       "id": 20,
@@ -233,7 +252,8 @@
       "key": "-",
       "original": "Would not regret my behavior if I were to take advantage of someone impulsively.",
       "translation": "衝動的に誰かの弱みや立場につけ込んで自分が得をしてしまっても、あまり後悔しないと思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "衝動的に誰かにつけ込んでも、自分の行動を後悔しないだろう。"
     },
     {
       "id": 21,
@@ -244,7 +264,8 @@
       "key": "+",
       "original": "Would not enjoy being a famous celebrity.",
       "translation": "有名人になって多くの人から注目される生活は、あまり楽しいとは思わない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "有名な著名人になることは楽しくないだろう。"
     },
     {
       "id": 22,
@@ -255,7 +276,8 @@
       "key": "+",
       "original": "Don't strive for elegance in my appearance.",
       "translation": "服装や身なりを、洗練されて上品に見せることにはあまり力を入れない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分の外見を上品に見せようとは努めない。"
     },
     {
       "id": 23,
@@ -266,7 +288,8 @@
       "key": "-",
       "original": "Love luxury.",
       "translation": "ぜいたくな物や生活が好きだ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "ぜいたくが大好きだ。"
     },
     {
       "id": 24,
@@ -277,7 +300,8 @@
       "key": "-",
       "original": "Have a strong need for power.",
       "translation": "他人に対して影響力や決定権を持てるような、大きな権力を強く求めている。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "権力を強く必要としている。"
     },
     {
       "id": 25,
@@ -288,7 +312,8 @@
       "key": "-",
       "original": "Seek status.",
       "translation": "社会的な地位や評価の高さを求める。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "地位を求める。"
     },
     {
       "id": 26,
@@ -299,7 +324,8 @@
       "key": "-",
       "original": "Am mainly interested in money.",
       "translation": "自分の関心事の中心は、お金や経済的利益だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "主にお金に関心がある。"
     },
     {
       "id": 27,
@@ -310,7 +336,8 @@
       "key": "-",
       "original": "Wish to stay young forever.",
       "translation": "できることなら、いつまでも若いままでいたいと思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "永遠に若いままでいたい。"
     },
     {
       "id": 28,
@@ -321,7 +348,8 @@
       "key": "-",
       "original": "Try to impress others.",
       "translation": "自分をすごい人だと思ってもらえるよう、人に印象づけようとする。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人に強い印象を与えようとする。"
     },
     {
       "id": 29,
@@ -332,7 +360,8 @@
       "key": "-",
       "original": "Prefer to eat at expensive restaurants.",
       "translation": "安価な店より、高級で値段の高いレストランで食事をする方を好む。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "高価なレストランで食事をする方を好む。"
     },
     {
       "id": 30,
@@ -343,7 +372,8 @@
       "key": "-",
       "original": "Am out for my own personal gain.",
       "translation": "自分自身の利益を得ることを第一に考えて行動する。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分自身の利益を得ようとしている。"
     },
     {
       "id": 31,
@@ -354,7 +384,8 @@
       "key": "+",
       "original": "Don't think that I'm better than other people.",
       "translation": "自分は他の人より人間として上だ、とは思わない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分が他の人より優れているとは思わない。"
     },
     {
       "id": 32,
@@ -365,7 +396,8 @@
       "key": "+",
       "original": "See myself as an average person.",
       "translation": "自分自身を、全体として平均的な人間だと思っている。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分を平均的な人だと見ている。"
     },
     {
       "id": 33,
@@ -376,7 +408,8 @@
       "key": "+",
       "original": "Am just an ordinary person.",
       "translation": "自分は特別な存在というより、ごく普通の人間だと思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分はただの普通の人だ。"
     },
     {
       "id": 34,
@@ -387,7 +420,8 @@
       "key": "+",
       "original": "Consider myself an average person.",
       "translation": "自分を、特別優れても劣ってもいない平均的な人間だと考えている。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分を平均的な人だと考えている。"
     },
     {
       "id": 35,
@@ -398,7 +432,8 @@
       "key": "-",
       "original": "Would like to have more power than other people.",
       "translation": "他の人よりも大きな権限や影響力を持ちたいと思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他の人より多くの権力を持ちたい。"
     },
     {
       "id": 36,
@@ -409,7 +444,8 @@
       "key": "-",
       "original": "Believe that I am better than others.",
       "translation": "自分は他の人より優れていると思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分は他の人より優れていると信じている。"
     },
     {
       "id": 37,
@@ -420,7 +456,8 @@
       "key": "-",
       "original": "Like to attract attention.",
       "translation": "人から注目を集めるのが好きだ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "注目を集めるのが好きだ。"
     },
     {
       "id": 38,
@@ -431,7 +468,8 @@
       "key": "-",
       "original": "Am more capable than most others.",
       "translation": "自分は、大半の人より能力が高い方だと思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分は大半の人より能力がある。"
     },
     {
       "id": 39,
@@ -442,7 +480,8 @@
       "key": "-",
       "original": "Am likely to show off if I get the chance.",
       "translation": "機会があれば、つい自分を見せびらかすような振る舞いをすると思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "機会があれば、自慢げに見せびらかす可能性が高い。"
     },
     {
       "id": 40,
@@ -453,7 +492,8 @@
       "key": "-",
       "original": "Boast about my virtues.",
       "translation": "自分の長所や優れている点を、人に自慢することがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分の長所を自慢する。"
     },
     {
       "id": 41,
@@ -464,7 +504,8 @@
       "key": "+",
       "original": "Am a physical coward.",
       "translation": "けがや事故など、身体的な危険がある場面では怖がって尻込みする方だ。",
-      "guidance": "性格全般の『臆病さ』ではなく、けが・事故など身体的危険への怖さを想定してください。"
+      "guidance": "性格全般の『臆病さ』ではなく、けが・事故など身体的危険への怖さを想定してください。",
+      "literal_ja": "身体的な危険に対して臆病だ。"
     },
     {
       "id": 42,
@@ -475,7 +516,8 @@
       "key": "+",
       "original": "Begin to panic when there is danger.",
       "translation": "身の危険を感じる状況になると、冷静さを失ってパニックになり始める。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "危険があると、パニックになり始める。"
     },
     {
       "id": 43,
@@ -486,7 +528,8 @@
       "key": "+",
       "original": "Would fear walking in a high-crime part of a city.",
       "translation": "犯罪が多いと分かっている地域を歩くのは、怖いと思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "都市の犯罪が多い地域を歩くのは怖いだろう。"
     },
     {
       "id": 44,
@@ -497,7 +540,8 @@
       "key": "+",
       "original": "Tremble in dangerous situations.",
       "translation": "実際に危険な状況になると、恐怖で体が震えることがあると思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "危険な状況では震える。"
     },
     {
       "id": 45,
@@ -508,7 +552,8 @@
       "key": "+",
       "original": "Would never go riding down a stretch of rapids in a canoe.",
       "translation": "カヌーで激しい急流を下るような、身体的に危険な活動は絶対にやりたくない。",
-      "guidance": "実際にカヌー経験がある必要はありません。同程度に身体的リスクのあるレジャーを想像して答えてください。"
+      "guidance": "実際にカヌー経験がある必要はありません。同程度に身体的リスクのあるレジャーを想像して答えてください。",
+      "literal_ja": "カヌーで急流を下ることは決してしないだろう。"
     },
     {
       "id": 46,
@@ -519,7 +564,8 @@
       "key": "-",
       "original": "Like to do frightening things.",
       "translation": "怖さを感じるような活動を、むしろ楽しんでやることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "怖いことをするのが好きだ。"
     },
     {
       "id": 47,
@@ -530,7 +576,8 @@
       "key": "-",
       "original": "Face danger confidently.",
       "translation": "危険な状況でも、怖さに圧倒されず自信を持って対処できる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "危険に自信を持って向き合う。"
     },
     {
       "id": 48,
@@ -541,7 +588,8 @@
       "key": "-",
       "original": "Love dangerous situations.",
       "translation": "危険がある状況そのものに、魅力や楽しさを感じる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "危険な状況が大好きだ。"
     },
     {
       "id": 49,
@@ -552,7 +600,8 @@
       "key": "-",
       "original": "Would be good at rescuing people from a burning building.",
       "translation": "燃えている建物から人を救出するような危険な場面でも、うまく行動できると思う。",
-      "guidance": "実際の消防技術の有無ではなく、強い身体的危険がある場面でも自分は対処できそうだと感じるかを考えてください。"
+      "guidance": "実際の消防技術の有無ではなく、強い身体的危険がある場面でも自分は対処できそうだと感じるかを考えてください。",
+      "literal_ja": "燃えている建物から人を救出するのが得意だろう。"
     },
     {
       "id": 50,
@@ -563,7 +612,8 @@
       "key": "-",
       "original": "Am willing to take risks.",
       "translation": "危険や損失の可能性がある選択でも、リスクを取ること自体には比較的抵抗がない。",
-      "guidance": "無謀さや判断能力ではなく、一般にリスクを引き受けることへの心理的な抵抗の強さを聞いています。合理的に必要性を評価できるかどうかとは別に、普段どちら側へ寄るかで答えてください。"
+      "guidance": "無謀さや判断能力ではなく、一般にリスクを引き受けることへの心理的な抵抗の強さを聞いています。合理的に必要性を評価できるかどうかとは別に、普段どちら側へ寄るかで答えてください。",
+      "literal_ja": "リスクを取る意思がある。"
     },
     {
       "id": 51,
@@ -574,7 +624,8 @@
       "key": "+",
       "original": "Often worry about things that turn out to be unimportant.",
       "translation": "後から考えると大した問題ではなかったことでも、事前にはよく心配してしまう。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "あとで重要ではなかったと分かることを、よく心配する。"
     },
     {
       "id": 52,
@@ -585,7 +636,8 @@
       "key": "+",
       "original": "Worry about things.",
       "translation": "起こるかもしれない問題や悪い結果について、あれこれ心配する方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "物事を心配する。"
     },
     {
       "id": 53,
@@ -596,7 +648,8 @@
       "key": "+",
       "original": "Get stressed out easily.",
       "translation": "ストレスを感じやすい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "簡単にストレスを感じる。"
     },
     {
       "id": 54,
@@ -607,7 +660,8 @@
       "key": "+",
       "original": "Get upset by unpleasant thoughts that come into my mind.",
       "translation": "嫌な想像や考えが頭に浮かぶと、それだけで気持ちが乱される。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "頭に浮かぶ不快な考えによって動揺する。"
     },
     {
       "id": 55,
@@ -618,7 +672,8 @@
       "key": "+",
       "original": "Panic easily.",
       "translation": "パニックになりやすい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "簡単にパニックになる。"
     },
     {
       "id": 56,
@@ -629,7 +684,8 @@
       "key": "-",
       "original": "Rarely worry.",
       "translation": "物事を心配することはめったにない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "めったに心配しない。"
     },
     {
       "id": 57,
@@ -640,7 +696,8 @@
       "key": "-",
       "original": "Rarely feel depressed.",
       "translation": "気分が沈んだり落ち込んだりすることはめったにない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "めったに落ち込んだ気分にならない。"
     },
     {
       "id": 58,
@@ -651,7 +708,8 @@
       "key": "-",
       "original": "Am not easily disturbed by events.",
       "translation": "何か出来事が起きても、簡単には心を乱されない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "出来事によって簡単には動揺しない。"
     },
     {
       "id": 59,
@@ -662,7 +720,8 @@
       "key": "-",
       "original": "Remain calm under pressure.",
       "translation": "プレッシャーがかかる状況でも、落ち着いていられる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "プレッシャーの下でも落ち着いている。"
     },
     {
       "id": 60,
@@ -673,7 +732,8 @@
       "key": "-",
       "original": "Don't worry about things that have already happened.",
       "translation": "すでに終わった出来事について、後から何度も心配し続けることはあまりない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "すでに起きたことについて心配しない。"
     },
     {
       "id": 61,
@@ -684,7 +744,8 @@
       "key": "+",
       "original": "Need reassurance.",
       "translation": "不安なときには、誰かから『大丈夫だ』と安心させてもらいたいと感じる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "安心させてもらう必要がある。"
     },
     {
       "id": 62,
@@ -695,7 +756,8 @@
       "key": "+",
       "original": "Let myself be influenced by others.",
       "translation": "他人の意見や態度に、そのまま影響されてしまうことがある。",
-      "guidance": "根拠を聞いて納得して意見を変えることとは別に、周囲の意見・雰囲気そのものに自分が影響されやすいかを考えてください。"
+      "guidance": "根拠を聞いて納得して意見を変えることとは別に、周囲の意見・雰囲気そのものに自分が影響されやすいかを考えてください。",
+      "literal_ja": "他人から影響を受けるままにする。"
     },
     {
       "id": 63,
@@ -706,7 +768,8 @@
       "key": "+",
       "original": "Need the approval of others.",
       "translation": "他人から認めてもらう必要を感じる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人からの承認を必要とする。"
     },
     {
       "id": 64,
@@ -717,7 +780,8 @@
       "key": "+",
       "original": "Need protection.",
       "translation": "誰かに守ってもらう必要を感じることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "守ってもらう必要がある。"
     },
     {
       "id": 65,
@@ -728,7 +792,8 @@
       "key": "+",
       "original": "Often need help.",
       "translation": "人の助けを必要とすることが多い。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "しばしば助けを必要とする。"
     },
     {
       "id": 66,
@@ -739,7 +804,8 @@
       "key": "+",
       "original": "Show my sadness.",
       "translation": "悲しいとき、その気持ちを隠さず周囲に表す方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分の悲しみを表す。"
     },
     {
       "id": 67,
@@ -750,7 +816,8 @@
       "key": "+",
       "original": "Suspect that my facial expressions give me away when I feel sad.",
       "translation": "悲しいときは、言葉にしなくても表情に出て周囲に気づかれていると思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "悲しいときは、表情に出てしまっているのではないかと思う。"
     },
     {
       "id": 68,
@@ -761,7 +828,8 @@
       "key": "+",
       "original": "Seek support.",
       "translation": "つらいときには、一人で抱え込むより人に支えや助けを求める。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "支えを求める。"
     },
     {
       "id": 69,
@@ -772,7 +840,8 @@
       "key": "+",
       "original": "Can't do without the company of others.",
       "translation": "人との付き合いや交流がほとんどない状態では、つらくてやっていけないと思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人と一緒にいないとやっていけない。"
     },
     {
       "id": 70,
@@ -783,7 +852,8 @@
       "key": "+",
       "original": "Want to be liked.",
       "translation": "人から好かれたい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "好かれたい。"
     },
     {
       "id": 71,
@@ -794,7 +864,8 @@
       "key": "+",
       "original": "Feel others' emotions.",
       "translation": "他人の感情に触れると、自分にもその感情が伝わってくるように感じる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人の感情を感じ取る。"
     },
     {
       "id": 72,
@@ -805,7 +876,8 @@
       "key": "+",
       "original": "Immediately feel sad when hearing of an unhappy event.",
       "translation": "人の不幸な出来事を聞くと、すぐに自分まで悲しい気持ちになる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "不幸な出来事を聞くと、すぐ悲しくなる。"
     },
     {
       "id": 73,
@@ -816,7 +888,8 @@
       "key": "+",
       "original": "Cry during movies.",
       "translation": "映画を見て泣くことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "映画を見て泣く。"
     },
     {
       "id": 74,
@@ -827,7 +900,8 @@
       "key": "+",
       "original": "Am sensitive to the needs of others.",
       "translation": "相手が助けや配慮を必要としていることに、比較的すぐ気づく。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人が必要としていることに敏感だ。"
     },
     {
       "id": 75,
@@ -838,7 +912,8 @@
       "key": "+",
       "original": "Am deeply moved by others' misfortunes.",
       "translation": "他人が不幸な目に遭っていると、かなり強く心を動かされる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人の不幸に深く心を動かされる。"
     },
     {
       "id": 76,
@@ -849,7 +924,8 @@
       "key": "-",
       "original": "Rarely cry during sad movies.",
       "translation": "悲しい映画を見ても、泣くことはめったにない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "悲しい映画を見ても、めったに泣かない。"
     },
     {
       "id": 77,
@@ -860,7 +936,8 @@
       "key": "-",
       "original": "Seldom feel weepy while reading the sad part of a story.",
       "translation": "物語の悲しい場面を読んでも、涙ぐむことはほとんどない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "物語の悲しい部分を読んでも、涙ぐむことはめったにない。"
     },
     {
       "id": 78,
@@ -871,7 +948,8 @@
       "key": "-",
       "original": "Am seldom bothered by the apparent suffering of strangers.",
       "translation": "見知らぬ人が苦しんでいる様子を見ても、心を痛めることはあまりない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "見知らぬ人が苦しんでいるように見えても、めったに気にならない。"
     },
     {
       "id": 79,
@@ -882,7 +960,8 @@
       "key": "-",
       "original": "Don't understand people who get emotional.",
       "translation": "感情が強く表に出る人を見ると、なぜそこまで感情的になるのか理解しにくい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "感情的になる人を理解できない。"
     },
     {
       "id": 80,
@@ -893,7 +972,8 @@
       "key": "-",
       "original": "Seldom get emotional.",
       "translation": "喜怒哀楽などで気持ちが大きく揺さぶられることは、あまりない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "感情的になることはめったにない。"
     },
     {
       "id": 81,
@@ -904,7 +984,8 @@
       "key": "+",
       "original": "Talk a lot.",
       "translation": "普段からよくしゃべる方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "たくさん話す。"
     },
     {
       "id": 82,
@@ -915,7 +996,8 @@
       "key": "+",
       "original": "Am never at a loss for words.",
       "translation": "会話中に、何を言えばいいか分からなくなって言葉に詰まることはほとんどない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "言葉に困ることがない。"
     },
     {
       "id": 83,
@@ -926,7 +1008,8 @@
       "key": "+",
       "original": "Am the life of the party.",
       "translation": "人が集まる場では、自分が中心になって場を盛り上げることが多い。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "パーティーの中心人物になる。"
     },
     {
       "id": 84,
@@ -937,7 +1020,8 @@
       "key": "+",
       "original": "Tell people about it when I'm irritated.",
       "translation": "いら立っているとき、その気持ちを人に伝える方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "いら立っているときは、そのことを人に話す。"
     },
     {
       "id": 85,
@@ -948,7 +1032,8 @@
       "key": "+",
       "original": "Have an intense, boisterous laugh.",
       "translation": "笑うときは、声が大きく勢いのある笑い方になる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "激しく、にぎやかに笑う。"
     },
     {
       "id": 86,
@@ -959,7 +1044,8 @@
       "key": "-",
       "original": "Don't talk a lot.",
       "translation": "普段はあまり多くしゃべらない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "あまり話さない。"
     },
     {
       "id": 87,
@@ -970,7 +1056,8 @@
       "key": "-",
       "original": "Don't like to draw attention to myself.",
       "translation": "自分に人の注目が集まるのは好きではない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分に注目を集めるのは好きではない。"
     },
     {
       "id": 88,
@@ -981,7 +1068,8 @@
       "key": "-",
       "original": "Say little.",
       "translation": "人といるとき、口数は少ない方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "ほとんど話さない。"
     },
     {
       "id": 89,
@@ -992,7 +1080,8 @@
       "key": "-",
       "original": "Bottle up my feelings.",
       "translation": "自分の気持ちを人に見せず、内側にため込むことが多い。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分の感情を内にため込む。"
     },
     {
       "id": 90,
@@ -1003,7 +1092,8 @@
       "key": "-",
       "original": "Speak softly.",
       "translation": "話す声は、比較的小さく控えめな方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "小さな声で話す。"
     },
     {
       "id": 91,
@@ -1014,7 +1104,8 @@
       "key": "+",
       "original": "Am good at making impromptu speeches.",
       "translation": "準備していなくても、その場で人前に立って話をまとめるのが得意だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "即興でスピーチをするのが得意だ。"
     },
     {
       "id": 92,
@@ -1025,7 +1116,8 @@
       "key": "+",
       "original": "Don't mind being the center of attention.",
       "translation": "人から注目される中心的な立場になっても、特に気にならない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "注目の中心になっても気にならない。"
     },
     {
       "id": 93,
@@ -1036,7 +1128,8 @@
       "key": "+",
       "original": "Feel comfortable around people.",
       "translation": "人と一緒にいる場でも、緊張せず自然体でいられる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "人のそばにいても居心地がよい。"
     },
     {
       "id": 94,
@@ -1047,7 +1140,8 @@
       "key": "+",
       "original": "Have leadership abilities.",
       "translation": "人をまとめたり、方向を示して引っ張ったりする能力があると思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "指導者としての能力がある。"
     },
     {
       "id": 95,
@@ -1058,7 +1152,8 @@
       "key": "+",
       "original": "Have a strong personality.",
       "translation": "性格がはっきりしていて、存在感や意志が強い方だと思う。",
-      "guidance": "ここでいう strong personality は、性格の善悪ではなく、意志や存在感が強く、周囲に押されにくいという意味です。"
+      "guidance": "ここでいう strong personality は、性格の善悪ではなく、意志や存在感が強く、周囲に押されにくいという意味です。",
+      "literal_ja": "強い個性を持っている。"
     },
     {
       "id": 96,
@@ -1069,7 +1164,8 @@
       "key": "-",
       "original": "Would be afraid to give a speech in public.",
       "translation": "人前でスピーチをするのは怖いと思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "人前でスピーチをするのは怖いだろう。"
     },
     {
       "id": 97,
@@ -1080,7 +1176,8 @@
       "key": "-",
       "original": "Keep in the background.",
       "translation": "人が集まる場では、自分から前に出ず目立たない位置にいる方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "背景に引っ込んでいる。"
     },
     {
       "id": 98,
@@ -1091,7 +1188,8 @@
       "key": "-",
       "original": "Find it difficult to approach others.",
       "translation": "知らない人やまだ親しくない人に、自分から近づいて話しかけるのは難しい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人に近づくのが難しいと感じる。"
     },
     {
       "id": 99,
@@ -1102,7 +1200,8 @@
       "key": "-",
       "original": "Hate being the center of attention.",
       "translation": "人から注目される中心的な立場になるのが嫌いだ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "注目の中心になるのが大嫌いだ。"
     },
     {
       "id": 100,
@@ -1113,7 +1212,8 @@
       "key": "-",
       "original": "Have little to say.",
       "translation": "人と一緒にいても、自分から話したいことがあまり浮かばない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "話すことがほとんどない。"
     },
     {
       "id": 101,
@@ -1124,7 +1224,8 @@
       "key": "+",
       "original": "Usually like to spend my free time with people.",
       "translation": "自由時間を人と一緒に過ごすことを、普段から好んでいる。",
-      "guidance": "一人で過ごすことが嫌いかではなく、自由時間を人と一緒に過ごすことを普段どの程度好むかで答えてください。"
+      "guidance": "一人で過ごすことが嫌いかではなく、自由時間を人と一緒に過ごすことを普段どの程度好むかで答えてください。",
+      "literal_ja": "普段、自由時間を人と一緒に過ごすのが好きだ。"
     },
     {
       "id": 102,
@@ -1135,7 +1236,8 @@
       "key": "+",
       "original": "Talk to a lot of different people at parties.",
       "translation": "パーティーや集まりでは、特定の人だけでなく多くの人と話す。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "パーティーでは、多くの異なる人と話す。"
     },
     {
       "id": 103,
@@ -1146,7 +1248,8 @@
       "key": "+",
       "original": "Love to chat.",
       "translation": "人とおしゃべりすることが好きだ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "おしゃべりするのが大好きだ。"
     },
     {
       "id": 104,
@@ -1157,7 +1260,8 @@
       "key": "+",
       "original": "Make friends easily.",
       "translation": "新しく知り合った人と、比較的簡単に友人関係を作れる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "簡単に友達ができる。"
     },
     {
       "id": 105,
@@ -1168,7 +1272,8 @@
       "key": "+",
       "original": "Enjoy being part of a group.",
       "translation": "グループの一員として過ごしたり活動したりするのが楽しい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "グループの一員でいることを楽しむ。"
     },
     {
       "id": 106,
@@ -1179,7 +1284,8 @@
       "key": "-",
       "original": "Seem to derive less enjoyment from interacting with people than others do.",
       "translation": "人と交流することから得る楽しさは、周囲の人より少ない方だと思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "人と交流することから得る楽しさが、他の人より少ないようだ。"
     },
     {
       "id": 107,
@@ -1190,7 +1296,8 @@
       "key": "-",
       "original": "Rarely enjoy being with people.",
       "translation": "人と一緒に過ごしていて、楽しいと感じることはあまりない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "人と一緒にいて楽しいと感じることはめったにない。"
     },
     {
       "id": 108,
@@ -1201,7 +1308,8 @@
       "key": "-",
       "original": "Would not enjoy a job that involves a lot of social interaction.",
       "translation": "人とのやり取りが多い仕事は、あまり楽しめないと思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "人との交流が多い仕事は楽しくないだろう。"
     },
     {
       "id": 109,
@@ -1212,7 +1320,8 @@
       "key": "-",
       "original": "Am hard to get to know.",
       "translation": "他人から見ると、私がどんな人間なのか深く知るまでには時間がかかる方だと思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人から知ってもらいにくい。"
     },
     {
       "id": 110,
@@ -1223,7 +1332,8 @@
       "key": "-",
       "original": "Keep others at a distance.",
       "translation": "他人とは、ある程度の距離を置く方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人を遠ざけておく。"
     },
     {
       "id": 111,
@@ -1234,7 +1344,8 @@
       "key": "+",
       "original": "Maintain high energy throughout the day.",
       "translation": "朝から夜まで、比較的高い活動エネルギーを保てる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "一日を通して高いエネルギーを保つ。"
     },
     {
       "id": 112,
@@ -1245,7 +1356,8 @@
       "key": "+",
       "original": "Have great stamina.",
       "translation": "長時間活動しても持ちこたえられる持久力がある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "非常に高い持久力がある。"
     },
     {
       "id": 113,
@@ -1256,7 +1368,8 @@
       "key": "+",
       "original": "Am usually active and full of energy.",
       "translation": "普段からよく動き、活力がある方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "普段は活動的で、エネルギーに満ちている。"
     },
     {
       "id": 114,
@@ -1267,7 +1380,8 @@
       "key": "+",
       "original": "Smile a lot.",
       "translation": "日常的によく笑顔になる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "よく笑顔になる。"
     },
     {
       "id": 115,
@@ -1278,7 +1392,8 @@
       "key": "+",
       "original": "Feel healthy and vibrant most of the time.",
       "translation": "たいていのとき、自分は健康的で生き生きしていると感じる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "ほとんどの時間、健康で活気があると感じる。"
     },
     {
       "id": 116,
@@ -1289,7 +1404,8 @@
       "key": "+",
       "original": "Laugh a lot.",
       "translation": "日常的によく笑う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "よく笑う。"
     },
     {
       "id": 117,
@@ -1300,7 +1416,8 @@
       "key": "+",
       "original": "Feel that I have a lot of inner strength.",
       "translation": "自分には、内側から湧いてくるような力強さや活力が十分あると感じる。",
-      "guidance": "inner strength は直訳すると『内面的な力』ですが、精神力だけに限定せず、自分の内側にある力強さ・活力として捉えてください。"
+      "guidance": "inner strength は直訳すると『内面的な力』ですが、精神力だけに限定せず、自分の内側にある力強さ・活力として捉えてください。",
+      "literal_ja": "自分にはたくさんの内面的な力があると感じる。"
     },
     {
       "id": 118,
@@ -1311,7 +1428,8 @@
       "key": "+",
       "original": "Have a lot of fun.",
       "translation": "日常生活の中で、楽しい・面白いと感じる時間が多い。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "たくさん楽しむ。"
     },
     {
       "id": 119,
@@ -1322,7 +1440,8 @@
       "key": "-",
       "original": "Tire out quickly.",
       "translation": "活動していると、比較的すぐに疲れてしまう。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "すぐに疲れ果てる。"
     },
     {
       "id": 120,
@@ -1333,7 +1452,8 @@
       "key": "-",
       "original": "Often feel blue.",
       "translation": "気分が沈んでいることが多い。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "しばしば憂うつな気分になる。"
     },
     {
       "id": 121,
