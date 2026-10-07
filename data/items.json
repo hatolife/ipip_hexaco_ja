@@ -12,7 +12,8 @@
     "status": "independent",
     "reviewed_all_items": true,
     "reviewed_date": "2026-10-07",
-    "note": "All 240 items were compared one-by-one with the English source. Japanese wording favors preservation of intent, natural comprehensibility, and semantic completeness as standalone Japanese sentences over literal word-for-word translation. This translation has not been psychometrically validated."
+    "note": "All 240 items were compared one-by-one with the English source. Japanese wording favors preservation of intent, natural comprehensibility, and semantic completeness as standalone Japanese sentences over literal word-for-word translation. This translation has not been psychometrically validated.",
+    "literal_translation_note": "literal_ja is a close Japanese rendering of the English wording for comparison. It intentionally preserves source wording more closely than translation and is not the recommended answering text."
   },
   "items": [
     {
@@ -1464,7 +1465,8 @@
       "key": "+",
       "original": "Love my enemies.",
       "translation": "自分に敵対している相手に対しても、好意や善意を持てる。",
-      "guidance": "文字どおり宗教的に『敵を愛する』ことだけを問うのではなく、強く対立した相手にも好意・善意を残せるかを考えてください。"
+      "guidance": "文字どおり宗教的に『敵を愛する』ことだけを問うのではなく、強く対立した相手にも好意・善意を残せるかを考えてください。",
+      "literal_ja": "自分の敵を愛する。"
     },
     {
       "id": 122,
@@ -1475,7 +1477,8 @@
       "key": "+",
       "original": "Try to forgive and forget.",
       "translation": "誰かに嫌なことをされても、できるだけ相手を許し、そのことを引きずらないようにする。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "許して忘れようとする。"
     },
     {
       "id": 123,
@@ -1486,7 +1489,8 @@
       "key": "+",
       "original": "Am inclined to forgive others.",
       "translation": "人から嫌なことをされても、比較的その人を許す方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人を許す傾向がある。"
     },
     {
       "id": 124,
@@ -1497,7 +1501,8 @@
       "key": "+",
       "original": "Am nice to people I should be angry at.",
       "translation": "本来なら腹を立てても当然と思える相手に対しても、穏やか・親切に接することがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "怒るべき相手にも親切にする。"
     },
     {
       "id": 125,
@@ -1508,7 +1513,8 @@
       "key": "-",
       "original": "Find it hard to forgive others.",
       "translation": "嫌なことをされた相手を許すのは難しいと感じる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人を許すのが難しい。"
     },
     {
       "id": 126,
@@ -1519,7 +1525,8 @@
       "key": "-",
       "original": "Hold a grudge.",
       "translation": "嫌なことをされた相手への恨みを、長いあいだ持ち続ける。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "恨みを抱く。"
     },
     {
       "id": 127,
@@ -1530,7 +1537,8 @@
       "key": "-",
       "original": "Get back at people who insult me.",
       "translation": "自分を侮辱した人には、何らかの形で仕返しすることがある。",
-      "guidance": "仕返ししたい気持ちだけでなく、実際に仕返しする傾向を聞いています。"
+      "guidance": "仕返ししたい気持ちだけでなく、実際に仕返しする傾向を聞いています。",
+      "literal_ja": "自分を侮辱した人に仕返しする。"
     },
     {
       "id": 128,
@@ -1541,7 +1549,8 @@
       "key": "-",
       "original": "Get even with others.",
       "translation": "誰かにやられたら、同じくらいのことを返して帳尻を合わせることがある。",
-      "guidance": "単に不公平を正したいという意味より、やられた分を相手にも返して『貸し借りなし』にしようとする傾向を聞いています。"
+      "guidance": "単に不公平を正したいという意味より、やられた分を相手にも返して『貸し借りなし』にしようとする傾向を聞いています。",
+      "literal_ja": "他人にやられた分をやり返す。"
     },
     {
       "id": 129,
@@ -1552,7 +1561,8 @@
       "key": "-",
       "original": "Distrust people.",
       "translation": "基本的に、人の言葉や善意をそのまま信用しない方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "人を信用しない。"
     },
     {
       "id": 130,
@@ -1563,7 +1573,8 @@
       "key": "-",
       "original": "Feel that most people can't be trusted.",
       "translation": "世の中の大半の人は、十分には信用できないと思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "大半の人は信用できないと感じる。"
     },
     {
       "id": 131,
@@ -1574,7 +1585,8 @@
       "key": "+",
       "original": "Rarely complain.",
       "translation": "気に入らないことがあっても、不平や文句を口にすることはあまりない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "めったに不平を言わない。"
     },
     {
       "id": 132,
@@ -1585,7 +1597,8 @@
       "key": "+",
       "original": "Take things as they come.",
       "translation": "自分の思いどおりにならないことが起きても、必要以上に抵抗せず、その状況を受け入れて対応する方だ。",
-      "guidance": "何も考えず流されるというより、予想外の状況を必要以上に拒まず受け入れて対応できるか、という意味です。"
+      "guidance": "何も考えず流されるというより、予想外の状況を必要以上に拒まず受け入れて対応できるか、という意味です。",
+      "literal_ja": "起きることをそのまま受け入れる。"
     },
     {
       "id": 133,
@@ -1596,7 +1609,8 @@
       "key": "+",
       "original": "Accept people as they are.",
       "translation": "人の欠点や癖も含め、その人はそういう人だとして受け入れる方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "人をありのまま受け入れる。"
     },
     {
       "id": 134,
@@ -1607,7 +1621,8 @@
       "key": "+",
       "original": "Have a good word for everyone.",
       "translation": "たいていの人について、少なくとも何か一つは良いところを見つけて言える。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "誰についても良いことを言える。"
     },
     {
       "id": 135,
@@ -1618,7 +1633,8 @@
       "key": "-",
       "original": "Become frustrated and angry with people when they don't live up to my expectations.",
       "translation": "人が自分の期待した水準で行動してくれないと、いら立ちや怒りを感じやすい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "人が自分の期待に応えないと、いら立って怒る。"
     },
     {
       "id": 136,
@@ -1629,7 +1645,8 @@
       "key": "-",
       "original": "Am quick to judge others.",
       "translation": "人について十分に知る前から、良い・悪いなどの評価を早めに決めてしまう方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人をすぐに判断する。"
     },
     {
       "id": 137,
@@ -1640,7 +1657,8 @@
       "key": "-",
       "original": "Find fault with everything.",
       "translation": "何にでも欠点や問題点を見つけがちだ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "何にでも欠点を見つける。"
     },
     {
       "id": 138,
@@ -1651,7 +1669,8 @@
       "key": "-",
       "original": "Speak ill of others.",
       "translation": "他人のことを悪く言うことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人の悪口を言う。"
     },
     {
       "id": 139,
@@ -1662,7 +1681,8 @@
       "key": "-",
       "original": "Have a sharp tongue.",
       "translation": "人に何か言うとき、言葉が辛辣・手厳しくなることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "辛辣な物言いをする。"
     },
     {
       "id": 140,
@@ -1673,7 +1693,8 @@
       "key": "-",
       "original": "Criticize others' shortcomings.",
       "translation": "他人の欠点や弱いところを批判することが多い。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人の欠点を批判する。"
     },
     {
       "id": 141,
@@ -1684,7 +1705,8 @@
       "key": "+",
       "original": "Adjust easily.",
       "translation": "予定や状況、人との関わり方が変わっても、比較的すぐそれに合わせられる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "簡単に適応する。"
     },
     {
       "id": 142,
@@ -1695,7 +1717,8 @@
       "key": "+",
       "original": "Am good at taking advice.",
       "translation": "人からの助言を取り入れるのが得意だ。",
-      "guidance": "助言の内容が必ず正しいと思うかではなく、他人からの助言を受け取り、自分の考えや行動へ取り入れやすいかを考えてください。"
+      "guidance": "助言の内容が必ず正しいと思うかではなく、他人からの助言を受け取り、自分の考えや行動へ取り入れやすいかを考えてください。",
+      "literal_ja": "助言を受け入れるのが得意だ。"
     },
     {
       "id": 143,
@@ -1706,7 +1729,8 @@
       "key": "-",
       "original": "When interacting with a group of people, am often bothered by at least one of them.",
       "translation": "複数人のグループと関わっていると、たいてい少なくとも一人には性格や振る舞いで気になる点が出てくる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "人の集まりと関わっていると、そのうち少なくとも一人にはよく腹が立つ。"
     },
     {
       "id": 144,
@@ -1717,7 +1741,8 @@
       "key": "-",
       "original": "React strongly to criticism.",
       "translation": "批判されると、強く反応する方だ。",
-      "guidance": "批判の内容が正しいかどうかではなく、批判を受けたときの反応の強さを考えてください。"
+      "guidance": "批判の内容が正しいかどうかではなく、批判を受けたときの反応の強さを考えてください。",
+      "literal_ja": "批判に強く反応する。"
     },
     {
       "id": 145,
@@ -1728,7 +1753,8 @@
       "key": "-",
       "original": "Get upset if others change the way that I have arranged things.",
       "translation": "自分が決めたり整えたりしたやり方を他人に変えられると、気分を害したり腹が立ったりする。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分が整えたやり方を他人に変えられると動揺する。"
     },
     {
       "id": 146,
@@ -1739,7 +1765,8 @@
       "key": "-",
       "original": "Am hard to convince.",
       "translation": "人から理由を示して説得されても、自分の考えをなかなか変えない方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "説得されにくい。"
     },
     {
       "id": 147,
@@ -1750,7 +1777,8 @@
       "key": "-",
       "original": "Am annoyed by others' mistakes.",
       "translation": "他人がミスをすると、その人にいら立ちを感じやすい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人のミスにいら立つ。"
     },
     {
       "id": 148,
@@ -1761,7 +1789,8 @@
       "key": "-",
       "original": "Can't stand being contradicted.",
       "translation": "自分の意見に反論されたり否定されたりすることに、強い不快感を覚える。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "反論されることに耐えられない。"
     },
     {
       "id": 149,
@@ -1772,7 +1801,8 @@
       "key": "-",
       "original": "Am hard to satisfy.",
       "translation": "人や物事について、簡単には満足しない方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "満足させるのが難しい。"
     },
     {
       "id": 150,
@@ -1783,7 +1813,8 @@
       "key": "-",
       "original": "Am hard to reason with.",
       "translation": "他人が筋道立てて説明しても、私を納得させたり考え直させたりするのは難しい方だ。",
-      "guidance": "単に頑固かではなく、他人が理由を示して話し合っても自分を納得させにくいか、という意味です。"
+      "guidance": "単に頑固かではなく、他人が理由を示して話し合っても自分を納得させにくいか、という意味です。",
+      "literal_ja": "理屈で納得させるのが難しい。"
     },
     {
       "id": 151,
@@ -1794,7 +1825,8 @@
       "key": "+",
       "original": "Find that it takes a lot to make me feel angry at someone.",
       "translation": "誰かに本気で腹を立てるまでには、かなり強い理由や出来事が必要だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "誰かに怒りを感じるまでには、かなりのことが必要だ。"
     },
     {
       "id": 152,
@@ -1805,7 +1837,8 @@
       "key": "+",
       "original": "Rarely feel angry with people.",
       "translation": "人に対して怒りを感じることはめったにない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "人に怒りを感じることはめったにない。"
     },
     {
       "id": 153,
@@ -1816,7 +1849,8 @@
       "key": "+",
       "original": "Am usually a patient person.",
       "translation": "普段は、待ったり我慢したりできる辛抱強い方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "普段は辛抱強い人間だ。"
     },
     {
       "id": 154,
@@ -1827,7 +1861,8 @@
       "key": "+",
       "original": "Rarely get irritated.",
       "translation": "ちょっとしたことでいら立つことはめったにない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "めったにいら立たない。"
     },
     {
       "id": 155,
@@ -1838,7 +1873,8 @@
       "key": "+",
       "original": "Seldom get mad.",
       "translation": "腹を立てて怒ることはほとんどない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "めったに腹を立てない。"
     },
     {
       "id": 156,
@@ -1849,7 +1885,8 @@
       "key": "-",
       "original": "Am easily annoyed.",
       "translation": "ちょっとしたことでも、すぐ不快に感じたりいら立ったりする。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "簡単にいら立つ。"
     },
     {
       "id": 157,
@@ -1860,7 +1897,8 @@
       "key": "-",
       "original": "Get angry easily.",
       "translation": "人や出来事に対して怒りを感じやすい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "簡単に怒る。"
     },
     {
       "id": 158,
@@ -1871,7 +1909,8 @@
       "key": "-",
       "original": "Get irritated easily.",
       "translation": "いらいらしやすい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "簡単にいら立つ。"
     },
     {
       "id": 159,
@@ -1882,7 +1921,8 @@
       "key": "-",
       "original": "Lose my temper.",
       "translation": "怒りが強くなると、感情を抑えきれずかっとなることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "かっとなる。"
     },
     {
       "id": 160,
@@ -1893,7 +1933,8 @@
       "key": "-",
       "original": "Get upset easily.",
       "translation": "ちょっとしたことで、腹を立てたり感情的に動揺したりしやすい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "簡単に動揺する。"
     },
     {
       "id": 161,
@@ -1904,7 +1945,8 @@
       "key": "+",
       "original": "Keep things tidy.",
       "translation": "身の回りの物は、整理された状態に保つ方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "物をきちんと整えておく。"
     },
     {
       "id": 162,
@@ -1915,7 +1957,8 @@
       "key": "+",
       "original": "Get chores done right away.",
       "translation": "家事や雑用など、やらなければならない細かな仕事は後回しにせず片づける。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "雑用はすぐに片づける。"
     },
     {
       "id": 163,
@@ -1926,7 +1969,8 @@
       "key": "+",
       "original": "Like order.",
       "translation": "物事が整理され、秩序立っている状態が好きだ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "秩序が好きだ。"
     },
     {
       "id": 164,
@@ -1937,7 +1981,8 @@
       "key": "+",
       "original": "Like to tidy up.",
       "translation": "散らかったものを整理・片づけることが好きだ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "片づけるのが好きだ。"
     },
     {
       "id": 165,
@@ -1948,7 +1993,8 @@
       "key": "+",
       "original": "Want everything to be \"just right.\"",
       "translation": "物事が中途半端ではなく、自分の中で『きちんと整った』と思える状態にしたい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "すべてが『ちょうどよい』状態であってほしい。"
     },
     {
       "id": 166,
@@ -1959,7 +2005,8 @@
       "key": "-",
       "original": "Leave a mess in my room.",
       "translation": "自分の部屋や身の回りを、散らかったままにしておくことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分の部屋を散らかったままにする。"
     },
     {
       "id": 167,
@@ -1970,7 +2017,8 @@
       "key": "-",
       "original": "Leave my belongings around.",
       "translation": "使った物や持ち物を、その辺に出したままにすることが多い。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "持ち物をその辺に置きっぱなしにする。"
     },
     {
       "id": 168,
@@ -1981,7 +2029,8 @@
       "key": "-",
       "original": "Don't finish the things that I start.",
       "translation": "何かを始めても、最後まで終わらせず途中のままになることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "始めたことを終わらせない。"
     },
     {
       "id": 169,
@@ -1992,7 +2041,8 @@
       "key": "-",
       "original": "Often forget to put things back in their proper place.",
       "translation": "使った物を決まった場所へ戻すのを、よく忘れる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "物を本来あるべき場所へ戻すのをよく忘れる。"
     },
     {
       "id": 170,
@@ -2003,7 +2053,8 @@
       "key": "-",
       "original": "Am not bothered by disorder.",
       "translation": "物や予定が整理されていなくても、それほど気にならない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "乱雑でも気にならない。"
     },
     {
       "id": 171,
@@ -2014,7 +2065,8 @@
       "key": "+",
       "original": "Push myself very hard to succeed.",
       "translation": "目標を達成するためなら、自分にかなり高い努力を要求して頑張る。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "成功するために、自分を非常に厳しく追い込む。"
     },
     {
       "id": 172,
@@ -2025,7 +2077,8 @@
       "key": "+",
       "original": "Get started quickly on doing a job.",
       "translation": "やるべき仕事があると、先延ばしせず比較的すぐ取りかかる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "仕事にすぐ取りかかる。"
     },
     {
       "id": 173,
@@ -2036,7 +2089,8 @@
       "key": "+",
       "original": "Am exacting in my work.",
       "translation": "自分の仕事の出来に対して高い基準を持ち、甘い出来では納得しない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分の仕事に厳しい。"
     },
     {
       "id": 174,
@@ -2047,7 +2101,8 @@
       "key": "+",
       "original": "Work hard.",
       "translation": "熱心に働き、努力する方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "一生懸命働く。"
     },
     {
       "id": 175,
@@ -2058,7 +2113,8 @@
       "key": "+",
       "original": "Complete tasks successfully.",
       "translation": "取り組んだ課題を、うまく最後までやり遂げる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "課題をうまく完了する。"
     },
     {
       "id": 176,
@@ -2069,7 +2125,8 @@
       "key": "-",
       "original": "Do just enough work to get by.",
       "translation": "問題にならない最低限の水準だけ仕事をして、それ以上はあまりやらない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "何とかやっていけるだけの最低限の仕事しかしない。"
     },
     {
       "id": 177,
@@ -2080,7 +2137,8 @@
       "key": "-",
       "original": "Stop when work becomes too difficult.",
       "translation": "仕事や課題がかなり難しくなると、粘るより途中でやめてしまうことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "仕事が難しくなりすぎるとやめる。"
     },
     {
       "id": 178,
@@ -2091,7 +2149,8 @@
       "key": "-",
       "original": "Do too little work.",
       "translation": "本来やるべき量に比べて、実際にこなす仕事量が少ないことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "仕事を十分にしない。"
     },
     {
       "id": 179,
@@ -2102,7 +2161,8 @@
       "key": "-",
       "original": "Hang around doing nothing.",
       "translation": "何もせず、だらだら時間を過ごすことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "何もせずぶらぶらしている。"
     },
     {
       "id": 180,
@@ -2113,7 +2173,8 @@
       "key": "-",
       "original": "Quickly lose interest in the tasks I start.",
       "translation": "自分で始めた課題でも、短期間で興味ややる気を失いやすい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "始めた課題への興味をすぐ失う。"
     },
     {
       "id": 181,
@@ -2124,7 +2185,8 @@
       "key": "+",
       "original": "Pay attention to details.",
       "translation": "作業するときは、細かな部分まで注意を向ける。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "細部に注意を払う。"
     },
     {
       "id": 182,
@@ -2135,7 +2197,8 @@
       "key": "+",
       "original": "Continue until everything is perfect.",
       "translation": "少しでも不完全なところが残っていると、納得できる状態になるまで作業を続ける方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "すべてが完璧になるまで続ける。"
     },
     {
       "id": 183,
@@ -2146,7 +2209,8 @@
       "key": "+",
       "original": "Have an eye for detail.",
       "translation": "他の人が見落とすような細かな点によく気づく。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "細部を見る目がある。"
     },
     {
       "id": 184,
@@ -2157,7 +2221,8 @@
       "key": "+",
       "original": "Want every detail taken care of.",
       "translation": "細かな部分まで漏れなく処理されている状態を求める。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "細部のすべてがきちんと処理されていてほしい。"
     },
     {
       "id": 185,
@@ -2168,7 +2233,8 @@
       "key": "+",
       "original": "Dislike imperfect work.",
       "translation": "出来に不完全なところが残った仕事を見ると、不満を感じる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "不完全な仕事が嫌いだ。"
     },
     {
       "id": 186,
@@ -2179,7 +2245,8 @@
       "key": "+",
       "original": "Want everything to add up perfectly.",
       "translation": "数字・説明・要素どうしが食い違わず、全体として完全に整合している状態を求める。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "すべてが完全につじつまが合っていてほしい。"
     },
     {
       "id": 187,
@@ -2190,7 +2257,8 @@
       "key": "+",
       "original": "Detect mistakes.",
       "translation": "作業や文章などに含まれるミスを見つけるのが得意な方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "間違いを見つける。"
     },
     {
       "id": 188,
@@ -2201,7 +2269,8 @@
       "key": "+",
       "original": "Demand quality.",
       "translation": "物事の出来には、高い質を求める。",
-      "guidance": "仕事の成果物だけに限定せず、物事の出来や品質に高い水準を求める傾向を考えてください。"
+      "guidance": "仕事の成果物だけに限定せず、物事の出来や品質に高い水準を求める傾向を考えてください。",
+      "literal_ja": "質を要求する。"
     },
     {
       "id": 189,
@@ -2212,7 +2281,8 @@
       "key": "-",
       "original": "Pay too little attention to details.",
       "translation": "作業するとき、細部への注意が不足してしまうことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "細部への注意が少なすぎる。"
     },
     {
       "id": 190,
@@ -2223,7 +2293,8 @@
       "key": "-",
       "original": "Prefer to just let things happen.",
       "translation": "細かく計画したり管理したりするより、ある程度は成り行きに任せる方が好きだ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "ただ成り行きに任せる方を好む。"
     },
     {
       "id": 191,
@@ -2234,7 +2305,8 @@
       "key": "+",
       "original": "Avoid mistakes.",
       "translation": "ミスを避けるようにしている。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "間違いを避ける。"
     },
     {
       "id": 192,
@@ -2245,7 +2317,8 @@
       "key": "+",
       "original": "Make plans and stick to them.",
       "translation": "計画を立てたら、その計画に従って進める。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "計画を立て、それを守る。"
     },
     {
       "id": 193,
@@ -2256,7 +2329,8 @@
       "key": "+",
       "original": "Do things according to a plan.",
       "translation": "思いつきで進めるより、あらかじめ立てた計画に沿って物事を進める。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "計画に従って物事を行う。"
     },
     {
       "id": 194,
@@ -2267,7 +2341,8 @@
       "key": "-",
       "original": "Jump into things without thinking.",
       "translation": "十分に考える前に、とりあえず行動を始めてしまうことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "考えずに物事へ飛び込む。"
     },
     {
       "id": 195,
@@ -2278,7 +2353,8 @@
       "key": "-",
       "original": "Do things without thinking of the consequences.",
       "translation": "その行動の後に何が起きるかを十分考えずに動くことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "結果を考えずに行動する。"
     },
     {
       "id": 196,
@@ -2289,7 +2365,8 @@
       "key": "-",
       "original": "Make rash decisions.",
       "translation": "情報を十分検討する前に、性急な判断をしてしまうことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "軽率な決断をする。"
     },
     {
       "id": 197,
@@ -2300,7 +2377,8 @@
       "key": "-",
       "original": "Act impulsively when something is bothering me.",
       "translation": "何かに腹を立てたり気持ちが乱れたりしていると、勢いで行動してしまうことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "何かが気になっているとき、衝動的に行動する。"
     },
     {
       "id": 198,
@@ -2311,7 +2389,8 @@
       "key": "-",
       "original": "Make careless mistakes.",
       "translation": "注意すれば防げるような、うっかりしたミスをすることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "不注意なミスをする。"
     },
     {
       "id": 199,
@@ -2322,7 +2401,8 @@
       "key": "-",
       "original": "Don't know why I do some of the things I do.",
       "translation": "自分で取った行動なのに、後から『なぜ自分はこんなことをしたのだろう』と理由が分からないことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分がすることの中には、なぜそうするのか自分でも分からないものがある。"
     },
     {
       "id": 200,
@@ -2333,7 +2413,8 @@
       "key": "-",
       "original": "Make a fool of myself.",
       "translation": "自分でも恥ずかしいと思うような振る舞いをしてしまうことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分をばかに見せるようなことをする。"
     },
     {
       "id": 201,
@@ -2344,7 +2425,8 @@
       "key": "+",
       "original": "Believe in the importance of art.",
       "translation": "芸術は重要なものだと思う。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "芸術の重要性を信じている。"
     },
     {
       "id": 202,
@@ -2355,7 +2437,8 @@
       "key": "+",
       "original": "Get deeply immersed in music.",
       "translation": "音楽に深く没頭することがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "音楽に深く没頭する。"
     },
     {
       "id": 203,
@@ -2366,7 +2449,8 @@
       "key": "+",
       "original": "See beauty in things that others might not notice.",
       "translation": "他の人なら見過ごしそうな物や風景にも、美しさを感じることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人が気づかないかもしれないものに美しさを見いだす。"
     },
     {
       "id": 204,
@@ -2377,7 +2461,8 @@
       "key": "+",
       "original": "Enjoy feeling \"close to the earth.\"",
       "translation": "自然の中で、大地や自然そのものとつながっているように感じることを楽しむ。",
-      "guidance": "特定の信仰を問うものではありません。自然の中で『自然の一部にいる』ような感覚を心地よく感じるかを考えてください。"
+      "guidance": "特定の信仰を問うものではありません。自然の中で『自然の一部にいる』ような感覚を心地よく感じるかを考えてください。",
+      "literal_ja": "『大地に近い』と感じることを楽しむ。"
     },
     {
       "id": 205,
@@ -2388,7 +2473,8 @@
       "key": "+",
       "original": "Have read the great literary classics.",
       "translation": "文学の古典的名作を読んだことがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "偉大な文学の古典を読んだことがある。"
     },
     {
       "id": 206,
@@ -2399,7 +2485,8 @@
       "key": "-",
       "original": "Do not like art.",
       "translation": "芸術が好きではない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "芸術が好きではない。"
     },
     {
       "id": 207,
@@ -2410,7 +2497,8 @@
       "key": "-",
       "original": "Seldom notice the emotional aspects of paintings and pictures.",
       "translation": "絵画や写真を見ても、そこから感情や雰囲気を感じ取ることはあまりない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "絵画や写真の感情的な側面にはめったに気づかない。"
     },
     {
       "id": 208,
@@ -2421,7 +2509,8 @@
       "key": "-",
       "original": "Do not like poetry.",
       "translation": "詩を読んだり味わったりすることは好きではない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "詩が好きではない。"
     },
     {
       "id": 209,
@@ -2432,7 +2521,8 @@
       "key": "-",
       "original": "Do not like concerts.",
       "translation": "音楽を生で聴くコンサートや演奏会は、あまり好きではない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "コンサートが好きではない。"
     },
     {
       "id": 210,
@@ -2443,7 +2533,8 @@
       "key": "-",
       "original": "Do not enjoy watching dance performances.",
       "translation": "ダンスや舞踊の公演を見るのは、あまり楽しくない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "ダンス公演を見ることを楽しめない。"
     },
     {
       "id": 211,
@@ -2454,7 +2545,8 @@
       "key": "+",
       "original": "Am interested in science.",
       "translation": "科学に興味がある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "科学に興味がある。"
     },
     {
       "id": 212,
@@ -2465,7 +2557,8 @@
       "key": "+",
       "original": "Would love to explore strange places.",
       "translation": "珍しい・変わった場所を探検してみたい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "変わった場所を探検してみたい。"
     },
     {
       "id": 213,
@@ -2476,7 +2569,8 @@
       "key": "+",
       "original": "Enjoy intellectual games.",
       "translation": "パズル、推理、戦略など、考えること自体を楽しむ知的な遊びが好きだ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "知的なゲームを楽しむ。"
     },
     {
       "id": 214,
@@ -2487,7 +2581,8 @@
       "key": "+",
       "original": "Love to read challenging material.",
       "translation": "難しくて考えさせられる読み物を読むのが好きだ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "難しく挑戦的な読み物を読むのが大好きだ。"
     },
     {
       "id": 215,
@@ -2498,7 +2593,8 @@
       "key": "+",
       "original": "Find political discussions interesting.",
       "translation": "政治についての議論を興味深いと思う。",
-      "guidance": "特定の政治思想への賛否ではなく、政治を題材に考えたり議論したりすることへの知的関心を聞いています。"
+      "guidance": "特定の政治思想への賛否ではなく、政治を題材に考えたり議論したりすることへの知的関心を聞いています。",
+      "literal_ja": "政治についての議論を興味深いと感じる。"
     },
     {
       "id": 216,
@@ -2509,7 +2605,8 @@
       "key": "+",
       "original": "Have a rich vocabulary.",
       "translation": "自分は、物事を表す言葉や表現を比較的多く知っている方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "豊富な語彙を持っている。"
     },
     {
       "id": 217,
@@ -2520,7 +2617,8 @@
       "key": "-",
       "original": "Don't know much about history.",
       "translation": "歴史上の出来事や時代について、自分はあまり知識がない方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "歴史についてあまり知らない。"
     },
     {
       "id": 218,
@@ -2531,7 +2629,8 @@
       "key": "-",
       "original": "Avoid difficult reading material.",
       "translation": "内容を理解するのにかなり頭を使うような難しい読み物は、なるべく読まないようにする。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "難しい読み物を避ける。"
     },
     {
       "id": 219,
@@ -2542,7 +2641,8 @@
       "key": "-",
       "original": "Don't bother worrying about political and social problems.",
       "translation": "政治や社会の問題について、わざわざ気にかけたり考えたりしない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "政治や社会の問題について、わざわざ心配しない。"
     },
     {
       "id": 220,
@@ -2553,7 +2653,8 @@
       "key": "-",
       "original": "Will not probe deeply into a subject.",
       "translation": "一つのテーマについて、詳しい背景や仕組みまで深く掘り下げることはあまりない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "あるテーマについて深く掘り下げようとはしない。"
     },
     {
       "id": 221,
@@ -2564,7 +2665,8 @@
       "key": "+",
       "original": "Have a vivid imagination.",
       "translation": "頭の中で場面や出来事を鮮明に思い描くなど、想像力が豊かな方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "鮮明な想像力がある。"
     },
     {
       "id": 222,
@@ -2575,7 +2677,8 @@
       "key": "+",
       "original": "Come up with something new.",
       "translation": "新しいアイデアや方法を思いつく。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "何か新しいものを思いつく。"
     },
     {
       "id": 223,
@@ -2586,7 +2689,8 @@
       "key": "+",
       "original": "Carry the conversation to a higher level.",
       "translation": "会話を、表面的な雑談だけでなく、より深く考える内容へ発展させることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "会話をより高い水準へ引き上げる。"
     },
     {
       "id": 224,
@@ -2597,7 +2701,8 @@
       "key": "+",
       "original": "Am full of ideas.",
       "translation": "いろいろなアイデアが次々に浮かぶ方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "アイデアでいっぱいだ。"
     },
     {
       "id": 225,
@@ -2608,7 +2713,8 @@
       "key": "+",
       "original": "Love to think up new ways of doing things.",
       "translation": "物事の新しいやり方を考えるのが好きだ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "物事の新しいやり方を考えるのが大好きだ。"
     },
     {
       "id": 226,
@@ -2619,7 +2725,8 @@
       "key": "+",
       "original": "Have excellent ideas.",
       "translation": "良いアイデアを思いつく方だ。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "すばらしいアイデアを持っている。"
     },
     {
       "id": 227,
@@ -2630,7 +2737,8 @@
       "key": "-",
       "original": "Do not have a good imagination.",
       "translation": "想像力はあまり豊かではない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "良い想像力を持っていない。"
     },
     {
       "id": 228,
@@ -2641,7 +2749,8 @@
       "key": "-",
       "original": "Have difficulty imagining things.",
       "translation": "実際には目の前にない物事や状況を、頭の中で具体的に思い描くのが難しい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "物事を想像するのが難しい。"
     },
     {
       "id": 229,
@@ -2652,7 +2761,8 @@
       "key": "-",
       "original": "Have trouble guessing how others will react.",
       "translation": "自分が何か言ったりしたりしたとき、相手がどう反応するかを頭の中で予想するのが難しい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人がどう反応するかを推測するのが難しい。"
     },
     {
       "id": 230,
@@ -2663,7 +2773,8 @@
       "key": "-",
       "original": "Seldom experience sudden intuitive insights.",
       "translation": "考えている途中で突然『そういうことか』と新しい見方や解決策がひらめくことは、あまりない。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "突然の直感的なひらめきを経験することはめったにない。"
     },
     {
       "id": 231,
@@ -2674,7 +2785,8 @@
       "key": "+",
       "original": "Am considered to be kind of eccentric.",
       "translation": "周囲から、少し風変わり・独特な人だと思われることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "少し風変わりだと思われている。"
     },
     {
       "id": 232,
@@ -2685,7 +2797,8 @@
       "key": "+",
       "original": "Know that my ideas sometimes surprise people.",
       "translation": "自分の考えや発想が、ときどき人を驚かせることを分かっている。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "自分の考えがときどき人を驚かせることを知っている。"
     },
     {
       "id": 233,
@@ -2696,7 +2809,8 @@
       "key": "+",
       "original": "Do things that others find strange.",
       "translation": "周囲の人から『普通はそんなことをしない』と思われるようなことをすることがある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "他人が変だと思うことをする。"
     },
     {
       "id": 234,
@@ -2707,7 +2821,8 @@
       "key": "+",
       "original": "Rebel against authority.",
       "translation": "権威に反発することがある。",
-      "guidance": "正当な指示まで何でも拒否するかではなく、権威や権威的な立場そのものに反発する傾向があるかを考えてください。"
+      "guidance": "正当な指示まで何でも拒否するかではなく、権威や権威的な立場そのものに反発する傾向があるかを考えてください。",
+      "literal_ja": "権威に反抗する。"
     },
     {
       "id": 235,
@@ -2718,7 +2833,8 @@
       "key": "+",
       "original": "Swim against the current.",
       "translation": "周囲の大多数と違う方向を、あえて選ぶことがある。",
-      "guidance": "反対すること自体が好きかではなく、多数派と違う選択をすることへの抵抗が少ないかを考えてください。"
+      "guidance": "反対すること自体が好きかではなく、多数派と違う選択をすることへの抵抗が少ないかを考えてください。",
+      "literal_ja": "流れに逆らって進む。"
     },
     {
       "id": 236,
@@ -2729,7 +2845,8 @@
       "key": "-",
       "original": "Would hate to be considered odd or strange.",
       "translation": "周囲から『変わった人』『普通ではない人』と思われることには強い抵抗がある。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "変わっている、または奇妙だと思われるのは大嫌いだ。"
     },
     {
       "id": 237,
@@ -2740,7 +2857,8 @@
       "key": "-",
       "original": "Enjoy being thought of as a normal \"mainstream\" person.",
       "translation": "周囲から、ごく普通の主流派・一般的な人だと思われることを心地よく感じる。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "普通の『主流派』の人だと思われることを楽しむ。"
     },
     {
       "id": 238,
@@ -2751,7 +2869,8 @@
       "key": "-",
       "original": "Like to be viewed as proper and conventional.",
       "translation": "周囲から、常識的で型から外れないきちんとした人だと思われたい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "きちんとした慣習的な人だと思われたい。"
     },
     {
       "id": 239,
@@ -2762,7 +2881,8 @@
       "key": "-",
       "original": "Like to be thought of as a normal kind of person.",
       "translation": "人から、特に変わったところのない普通の人だと思われたい。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "普通のタイプの人だと思われたい。"
     },
     {
       "id": 240,
@@ -2773,7 +2893,8 @@
       "key": "-",
       "original": "Try to avoid complex people.",
       "translation": "考え方や性格が複雑で理解に手間がかかる人とは、なるべく関わらないようにする。",
-      "guidance": ""
+      "guidance": "",
+      "literal_ja": "複雑な人を避けようとする。"
     }
   ]
 }
