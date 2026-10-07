@@ -101,3 +101,19 @@ The question screen presents them in this order:
 5. answer choices
 
 The supplement must clarify wording or scope without adding a new trait, condition, motive, or desired answer direction.
+
+
+## Over-interpretation audit (2026-10-07)
+
+All 240 answering translations were re-reviewed specifically for semantic material that the English source does not state.
+
+Removed or reduced patterns included:
+
+- narrowing a broad comparison to moral or human worth (for example, `better than other people` → not specifically `人間として上`)
+- adding motives such as wanting to look impressive when the source only says `impress`
+- adding examples as if they were the definition of the item
+- adding causal mechanisms such as `because of fear`, `because it is hard to understand`, or `because of quality`
+- adding stronger frequency or intensity than the English source
+- replacing a broad target such as `others`, `things`, or `people` with a narrower target
+
+Natural Japanese is still allowed to make an implicit grammatical action explicit when Japanese otherwise becomes incomplete. That clarification must not change the construct or restrict the possible interpretation beyond the source.
