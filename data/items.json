@@ -14,7 +14,7 @@
     "reviewed_date": "2026-10-07",
     "note": "All 240 items were compared one-by-one with the English source. Japanese wording favors preservation of intent, natural comprehensibility, and semantic completeness as standalone Japanese sentences over literal word-for-word translation. This translation has not been psychometrically validated.",
     "literal_translation_note": "literal_ja is a close Japanese rendering of the English wording for comparison. It intentionally preserves source wording more closely than translation and is not the recommended answering text.",
-    "overinterpretation_review": "Reviewed all 240 items for source-absent restrictions, motives, examples, intensity, and construct narrowing. Natural Japanese may clarify grammar, but should not add semantic conditions that are not present in the English source."
+    "overinterpretation_review": "Reviewed all 240 item translations and all item-specific guidance for source-absent restrictions, motives, examples, intensity, and construct narrowing. Natural Japanese may clarify grammar, but should not add semantic conditions that are not present in the English source."
   },
   "items": [
     {
@@ -134,7 +134,7 @@
       "key": "-",
       "original": "Let people push me around to help them feel important.",
       "translation": "相手に『自分は重要な存在だ』と感じさせるために、相手の言いなりになることがある。",
-      "guidance": "単に『相手の意見が正しいと思って従う』ことではありません。相手の自尊心や優越感を満たす目的で、押し切られることを許す傾向を聞いています。",
+      "guidance": "単に相手が正しいと思って従う場合ではなく、相手に『自分は重要な存在だ』と感じてもらうために、相手の言いなりになる場面を考えてください。",
       "literal_ja": "相手に自分が重要だと感じさせるために、相手の言いなりになる。"
     },
     {
@@ -554,7 +554,7 @@
       "key": "+",
       "original": "Would never go riding down a stretch of rapids in a canoe.",
       "translation": "カヌーで激しい急流を下ることは、絶対にやりたくない。",
-      "guidance": "実際にカヌー経験がある必要はありません。同程度に身体的リスクのあるレジャーを想像して答えてください。",
+      "guidance": "実際にカヌー経験がある必要はありません。激しい急流をカヌーで下る場面を想像したとき、自分ならやりたいと思うかで答えてください。",
       "literal_ja": "カヌーで急流を下ることは決してしないだろう。"
     },
     {
@@ -602,7 +602,7 @@
       "key": "-",
       "original": "Would be good at rescuing people from a burning building.",
       "translation": "燃えている建物から人を救出するとき、うまく行動できると思う。",
-      "guidance": "実際の消防技術の有無ではなく、強い身体的危険がある場面でも自分は対処できそうだと感じるかを考えてください。",
+      "guidance": "実際の消防・救助経験があるかではなく、燃えている建物から人を救出する場面を想像したとき、自分ならうまく行動できそうかで答えてください。",
       "literal_ja": "燃えている建物から人を救出するのが得意だろう。"
     },
     {
@@ -614,7 +614,7 @@
       "key": "-",
       "original": "Am willing to take risks.",
       "translation": "リスクを取ることに抵抗はない。",
-      "guidance": "無謀さや判断能力ではなく、一般にリスクを引き受けることへの心理的な抵抗の強さを聞いています。合理的に必要性を評価できるかどうかとは別に、普段どちら側へ寄るかで答えてください。",
+      "guidance": "無謀かどうかや判断の良し悪しではなく、普段どの程度リスクを取る意思があるかで答えてください。",
       "literal_ja": "リスクを取る意思がある。"
     },
     {
@@ -758,7 +758,7 @@
       "key": "+",
       "original": "Let myself be influenced by others.",
       "translation": "他人の影響をそのまま受けることがある。",
-      "guidance": "根拠を聞いて納得して意見を変えることとは別に、周囲の意見・雰囲気そのものに自分が影響されやすいかを考えてください。",
+      "guidance": "他人から影響を受けること自体について答えてください。理由を聞いて自分で納得したうえで考えを変えることとは区別してください。",
       "literal_ja": "他人から影響を受けるままにする。"
     },
     {
@@ -1154,7 +1154,7 @@
       "key": "+",
       "original": "Have a strong personality.",
       "translation": "自分は、強い個性を持っていると思う。",
-      "guidance": "ここでいう strong personality は、性格の善悪ではなく、意志や存在感が強く、周囲に押されにくいという意味です。",
+      "guidance": "strong personality は意味の幅がある表現です。意志の強さ・存在感・社交性など一つの要素だけに限定せず、自分が『強い個性を持っている』という表現にどの程度当てはまると感じるかで答えてください。",
       "literal_ja": "強い個性を持っている。"
     },
     {
@@ -1418,7 +1418,7 @@
       "key": "+",
       "original": "Feel that I have a lot of inner strength.",
       "translation": "自分の内側に、かなりの力強さがあると感じる。",
-      "guidance": "inner strength は直訳すると『内面的な力』ですが、精神力だけに限定せず、自分の内側にある力強さ・活力として捉えてください。",
+      "guidance": "inner strength は『内面的な力・内側の強さ』という幅のある表現です。精神力や活力など一つの意味だけに限定せず、自分がこの表現にどの程度当てはまると感じるかで答えてください。",
       "literal_ja": "自分にはたくさんの内面的な力があると感じる。"
     },
     {
@@ -1466,7 +1466,7 @@
       "key": "+",
       "original": "Love my enemies.",
       "translation": "自分に敵対している相手に対しても、好意や善意を持てる。",
-      "guidance": "文字どおり宗教的に『敵を愛する』ことだけを問うのではなく、強く対立した相手にも好意・善意を残せるかを考えてください。",
+      "guidance": "原文はかなり強い表現です。『自分に敵対する相手にも愛情を持てるか』という文面そのものに対して答えてください。特定の宗教的信条の有無だけを問うものではありません。",
       "literal_ja": "自分の敵を愛する。"
     },
     {
@@ -1598,7 +1598,7 @@
       "key": "+",
       "original": "Take things as they come.",
       "translation": "起きたことをそのまま受け入れて対応する方だ。",
-      "guidance": "何も考えず流されるというより、予想外の状況を必要以上に拒まず受け入れて対応できるか、という意味です。",
+      "guidance": "take things as they come は、起きたことをその都度受け入れる、という意味の慣用表現です。『何も考えない』『計画しない』という意味に限定しないでください。",
       "literal_ja": "起きることをそのまま受け入れる。"
     },
     {
@@ -2270,7 +2270,7 @@
       "key": "+",
       "original": "Demand quality.",
       "translation": "高い質を求める。",
-      "guidance": "仕事の成果物だけに限定せず、物事の出来や品質に高い水準を求める傾向を考えてください。",
+      "guidance": "特定の仕事や成果物だけに限定せず、一般に質の高さを求めるかで答えてください。",
       "literal_ja": "質を要求する。"
     },
     {
@@ -2462,7 +2462,7 @@
       "key": "+",
       "original": "Enjoy feeling \"close to the earth.\"",
       "translation": "自然の中で、大地や自然そのものとつながっているように感じることを楽しむ。",
-      "guidance": "特定の信仰を問うものではありません。自然の中で『自然の一部にいる』ような感覚を心地よく感じるかを考えてください。",
+      "guidance": "『大地に近い』は、自然や大地との近さ・つながりを感じるような感覚を表す比喩的な表現です。特定の信仰の有無を問うものではありません。",
       "literal_ja": "『大地に近い』と感じることを楽しむ。"
     },
     {
@@ -2594,7 +2594,7 @@
       "key": "+",
       "original": "Find political discussions interesting.",
       "translation": "政治についての議論を興味深いと思う。",
-      "guidance": "特定の政治思想への賛否ではなく、政治を題材に考えたり議論したりすることへの知的関心を聞いています。",
+      "guidance": "特定の政治思想への賛否ではなく、政治について議論すること自体をどの程度興味深いと感じるかで答えてください。",
       "literal_ja": "政治についての議論を興味深いと感じる。"
     },
     {
@@ -2822,7 +2822,7 @@
       "key": "+",
       "original": "Rebel against authority.",
       "translation": "権威に反発することがある。",
-      "guidance": "正当な指示まで何でも拒否するかではなく、権威や権威的な立場そのものに反発する傾向があるかを考えてください。",
+      "guidance": "権威のある人や立場に対して反発する傾向について答えてください。個別の指示が正しいかどうかだけを問うものではありません。",
       "literal_ja": "権威に反抗する。"
     },
     {
@@ -2834,7 +2834,7 @@
       "key": "+",
       "original": "Swim against the current.",
       "translation": "周囲の流れに逆らって進むことがある。",
-      "guidance": "反対すること自体が好きかではなく、多数派と違う選択をすることへの抵抗が少ないかを考えてください。",
+      "guidance": "原文は『流れに逆らって泳ぐ』という比喩で、周囲の流れや多数派に合わせず逆方向へ進むことを指します。単に反対することが好きかだけに限定しないでください。",
       "literal_ja": "流れに逆らって進む。"
     },
     {
