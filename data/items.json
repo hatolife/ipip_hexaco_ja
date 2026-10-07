@@ -11,8 +11,8 @@
     "language": "ja",
     "status": "independent",
     "reviewed_all_items": true,
-    "reviewed_date": "2026-10-06",
-    "note": "All 240 items were compared one-by-one with the English source through three review passes. Japanese wording favors preservation of intent and natural comprehensibility over literal word-for-word translation. Interpretation that is not explicit in the source is kept in guidance where possible. This translation has not been psychometrically validated."
+    "reviewed_date": "2026-10-07",
+    "note": "All 240 items were compared one-by-one with the English source. Japanese wording favors preservation of intent, natural comprehensibility, and semantic completeness as standalone Japanese sentences over literal word-for-word translation. This translation has not been psychometrically validated."
   },
   "items": [
     {
@@ -276,7 +276,7 @@
       "facet_ja": "強欲さの低さ",
       "key": "-",
       "original": "Have a strong need for power.",
-      "translation": "他人に対して影響力や決定権を持てるような、強い権力を欲しいと思う。",
+      "translation": "他人に対して影響力や決定権を持てるような、大きな権力を強く求めている。",
       "guidance": ""
     },
     {
@@ -694,7 +694,7 @@
       "facet_ja": "依存性",
       "key": "+",
       "original": "Let myself be influenced by others.",
-      "translation": "他人の意見や態度に、自分が影響されるままになることがある。",
+      "translation": "他人の意見や態度に、そのまま影響されてしまうことがある。",
       "guidance": "根拠を聞いて納得して意見を変えることとは別に、周囲の意見・雰囲気そのものに自分が影響されやすいかを考えてください。"
     },
     {
@@ -1123,7 +1123,7 @@
       "facet_ja": "社交性",
       "key": "+",
       "original": "Usually like to spend my free time with people.",
-      "translation": "自由時間は、人と一緒に過ごすのが好きなことが多い。",
+      "translation": "自由時間を人と一緒に過ごすことを、普段から好んでいる。",
       "guidance": "一人で過ごすことが嫌いかではなく、自由時間を人と一緒に過ごすことを普段どの程度好むかで答えてください。"
     },
     {
@@ -1167,7 +1167,7 @@
       "facet_ja": "社交性",
       "key": "+",
       "original": "Enjoy being part of a group.",
-      "translation": "グループの一員として過ごしたり活動したりすることを楽しめる。",
+      "translation": "グループの一員として過ごしたり活動したりするのが楽しい。",
       "guidance": ""
     },
     {
@@ -1299,7 +1299,7 @@
       "facet_ja": "活発さ",
       "key": "+",
       "original": "Feel that I have a lot of inner strength.",
-      "translation": "自分の内側に、十分な力強さや活力があると感じる。",
+      "translation": "自分には、内側から湧いてくるような力強さや活力が十分あると感じる。",
       "guidance": "inner strength は直訳すると『内面的な力』ですが、精神力だけに限定せず、自分の内側にある力強さ・活力として捉えてください。"
     },
     {
@@ -2080,7 +2080,7 @@
       "facet_ja": "完全主義",
       "key": "+",
       "original": "Demand quality.",
-      "translation": "物事の出来には、高い品質を求める。",
+      "translation": "物事の出来には、高い質を求める。",
       "guidance": "仕事の成果物だけに限定せず、物事の出来や品質に高い水準を求める傾向を考えてください。"
     },
     {
@@ -2256,7 +2256,7 @@
       "facet_ja": "美的感受性",
       "key": "+",
       "original": "Enjoy feeling \"close to the earth.\"",
-      "translation": "自然の中で、大地や自然そのものとのつながりを感じるような感覚を楽しめる。",
+      "translation": "自然の中で、大地や自然そのものとつながっているように感じることを楽しむ。",
       "guidance": "特定の信仰を問うものではありません。自然の中で『自然の一部にいる』ような感覚を心地よく感じるかを考えてください。"
     },
     {
@@ -2410,7 +2410,7 @@
       "facet_ja": "探究心",
       "key": "-",
       "original": "Avoid difficult reading material.",
-      "translation": "内容を理解するのにかなり頭を使う難しい文章は、なるべく避ける。",
+      "translation": "難しくて内容を理解するのにかなり頭を使う読み物は、なるべく読まないようにする。",
       "guidance": ""
     },
     {
