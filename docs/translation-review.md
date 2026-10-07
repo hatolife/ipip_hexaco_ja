@@ -61,3 +61,25 @@ Notable changes:
 - Added or refined guidance for items where a literal Japanese reading would still invite a materially different interpretation.
 
 The scored statement remains the primary translation. Guidance is intentionally non-scored explanatory text and should not be treated as part of the original IPIP item.
+
+
+## Japanese standalone-completeness rule
+
+The Japanese item must be understandable as a complete Japanese statement even when the English source is hidden.
+
+This means:
+
+- Do not preserve English ellipsis merely because the source is short.
+- When an English noun phrase implies an action that Japanese would leave ambiguous, state the action explicitly.
+- The Japanese sentence should make clear what the respondent does, feels, thinks, reads, watches, says, or avoids.
+- Do not rely on the facet name or guidance text to repair an incomplete scored statement.
+- Added wording may clarify grammar and the implied action, but must not add a new condition, motive, frequency, or construct.
+
+Example:
+
+- English: `Avoid difficult reading material.`
+- Rejected: `内容を理解するのにかなり頭を使う難しい文章は、なるべく避ける。`
+  - In Japanese, `文章を避ける` does not specify whether the person avoids reading it, writing it, or something else.
+- Revised: `難しくて内容を理解するのにかなり頭を使う読み物は、なるべく読まないようにする。`
+
+A 2026-10-07 pass also revised IDs 24, 62, 101, 105, 117, 188, 204, and 218 for Japanese standalone naturalness or semantic completeness without changing the intended construct.
