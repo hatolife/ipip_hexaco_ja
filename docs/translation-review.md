@@ -117,3 +117,6 @@ Removed or reduced patterns included:
 - replacing a broad target such as `others`, `things`, or `people` with a narrower target
 
 Natural Japanese is still allowed to make an implicit grammatical action explicit when Japanese otherwise becomes incomplete. That clarification must not change the construct or restrict the possible interpretation beyond the source.
+
+
+The same over-interpretation audit was applied to item-specific guidance. Guidance may explain an idiom, distinguish an obvious non-target interpretation, or help the respondent imagine the source scenario, but it must not define an ambiguous source phrase more narrowly from facet context.
