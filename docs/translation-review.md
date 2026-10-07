@@ -83,3 +83,21 @@ Example:
 - Revised: `難しくて内容を理解するのにかなり頭を使う読み物は、なるべく読まないようにする。`
 
 A 2026-10-07 pass also revised IDs 24, 62, 101, 105, 117, 188, 204, and 218 for Japanese standalone naturalness or semantic completeness without changing the intended construct.
+
+
+## Natural translation vs. literal translation
+
+Each item now stores two Japanese renderings:
+
+- `translation`: the primary wording used for answering. It should be complete, natural Japanese while preserving the source construct.
+- `literal_ja`: a source-comparison aid that stays closer to the English wording and structure. It may sound less natural and is not the preferred answering text.
+
+The question screen presents them in this order:
+
+1. natural Japanese translation
+2. English original
+3. literal Japanese translation
+4. supplement / wording clarification / judgment guidance
+5. answer choices
+
+The supplement must clarify wording or scope without adding a new trait, condition, motive, or desired answer direction.
