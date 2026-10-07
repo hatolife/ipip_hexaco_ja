@@ -13,7 +13,8 @@
     "reviewed_all_items": true,
     "reviewed_date": "2026-10-07",
     "note": "All 240 items were compared one-by-one with the English source. Japanese wording favors preservation of intent, natural comprehensibility, and semantic completeness as standalone Japanese sentences over literal word-for-word translation. This translation has not been psychometrically validated.",
-    "literal_translation_note": "literal_ja is a close Japanese rendering of the English wording for comparison. It intentionally preserves source wording more closely than translation and is not the recommended answering text."
+    "literal_translation_note": "literal_ja is a close Japanese rendering of the English wording for comparison. It intentionally preserves source wording more closely than translation and is not the recommended answering text.",
+    "overinterpretation_review": "Reviewed all 240 items for source-absent restrictions, motives, examples, intensity, and construct narrowing. Natural Japanese may clarify grammar, but should not add semantic conditions that are not present in the English source."
   },
   "items": [
     {
@@ -48,7 +49,7 @@
       "facet_ja": "誠実さ",
       "key": "-",
       "original": "Tell other people what they want to hear so that they will do what I want them to do.",
-      "translation": "相手を自分の望むように動かすために、相手が聞きたがっていることを意図的に言うことがある。",
+      "translation": "相手を自分の望むように動かすために、相手が聞きたがっていることを言うことがある。",
       "guidance": "",
       "literal_ja": "相手に自分の望むことをしてもらうために、その人が聞きたがることを言う。"
     },
@@ -60,7 +61,7 @@
       "facet_ja": "誠実さ",
       "key": "-",
       "original": "Put on a show to impress people.",
-      "translation": "人によく思われるために、わざと自分を大きく見せたり、大げさに振る舞ったりすることがある。",
+      "translation": "人に強い印象を与えるために、わざと見せかけの振る舞いをすることがある。",
       "guidance": "",
       "literal_ja": "人に強い印象を与えるために、見せかけの振る舞いをする。"
     },
@@ -72,7 +73,7 @@
       "facet_ja": "誠実さ",
       "key": "-",
       "original": "Switch my loyalties when I feel like it.",
-      "translation": "自分の都合や気分次第で、それまで支持・味方していた相手から別の側へ乗り換えることがある。",
+      "translation": "自分の気分次第で、それまで支持していた相手や側から別の側へ乗り換えることがある。",
       "guidance": "",
       "literal_ja": "そうしたいと感じたときには、忠誠を向ける相手を変える。"
     },
@@ -132,7 +133,7 @@
       "facet_ja": "誠実さ",
       "key": "-",
       "original": "Let people push me around to help them feel important.",
-      "translation": "相手に『自分には力がある』『自分は重要な存在だ』と感じさせるために、あえて相手に押し切られるままにすることがある。",
+      "translation": "相手に『自分は重要な存在だ』と感じさせるために、相手の言いなりになることがある。",
       "guidance": "単に『相手の意見が正しいと思って従う』ことではありません。相手の自尊心や優越感を満たす目的で、押し切られることを許す傾向を聞いています。",
       "literal_ja": "相手に自分が重要だと感じさせるために、相手の言いなりになる。"
     },
@@ -144,7 +145,7 @@
       "facet_ja": "公平さ",
       "key": "+",
       "original": "Would never take things that aren't mine.",
-      "translation": "自分のものではない物を勝手に取ることは決してしないと思う。",
+      "translation": "自分のものではない物を取ることは決してしないと思う。",
       "guidance": "",
       "literal_ja": "自分の物ではないものを取ることは決してしないだろう。"
     },
@@ -156,7 +157,7 @@
       "facet_ja": "公平さ",
       "key": "+",
       "original": "Would never cheat on my taxes.",
-      "translation": "税金をごまかして自分の負担を不正に減らすことは決してしないと思う。",
+      "translation": "税金をごまかすことは決してしないと思う。",
       "guidance": "",
       "literal_ja": "税金をごまかすことは決してしないだろう。"
     },
@@ -204,7 +205,7 @@
       "facet_ja": "公平さ",
       "key": "-",
       "original": "Admire a really clever scam.",
-      "translation": "とても巧妙に仕組まれた詐欺を見ると、その手口のうまさに感心することがある。",
+      "translation": "とても巧妙な詐欺の手口には、その巧妙さに感心することがある。",
       "guidance": "詐欺を道徳的に支持するかではなく、手口の巧妙さそのものに感心することがあるか、という問いです。",
       "literal_ja": "本当に巧妙な詐欺には感心する。"
     },
@@ -264,7 +265,7 @@
       "facet_ja": "強欲さの低さ",
       "key": "+",
       "original": "Would not enjoy being a famous celebrity.",
-      "translation": "有名人になって多くの人から注目される生活は、あまり楽しいとは思わない。",
+      "translation": "有名人として暮らすことは、あまり楽しいとは思わない。",
       "guidance": "",
       "literal_ja": "有名な著名人になることは楽しくないだろう。"
     },
@@ -300,7 +301,7 @@
       "facet_ja": "強欲さの低さ",
       "key": "-",
       "original": "Have a strong need for power.",
-      "translation": "他人に対して影響力や決定権を持てるような、大きな権力を強く求めている。",
+      "translation": "権力を持ちたいという強い欲求がある。",
       "guidance": "",
       "literal_ja": "権力を強く必要としている。"
     },
@@ -312,7 +313,7 @@
       "facet_ja": "強欲さの低さ",
       "key": "-",
       "original": "Seek status.",
-      "translation": "社会的な地位や評価の高さを求める。",
+      "translation": "社会的な地位を求める。",
       "guidance": "",
       "literal_ja": "地位を求める。"
     },
@@ -348,7 +349,7 @@
       "facet_ja": "強欲さの低さ",
       "key": "-",
       "original": "Try to impress others.",
-      "translation": "自分をすごい人だと思ってもらえるよう、人に印象づけようとする。",
+      "translation": "人に強い印象を与えようとする。",
       "guidance": "",
       "literal_ja": "他人に強い印象を与えようとする。"
     },
@@ -360,7 +361,7 @@
       "facet_ja": "強欲さの低さ",
       "key": "-",
       "original": "Prefer to eat at expensive restaurants.",
-      "translation": "安価な店より、高級で値段の高いレストランで食事をする方を好む。",
+      "translation": "値段の高いレストランで食事をする方を好む。",
       "guidance": "",
       "literal_ja": "高価なレストランで食事をする方を好む。"
     },
@@ -372,7 +373,7 @@
       "facet_ja": "強欲さの低さ",
       "key": "-",
       "original": "Am out for my own personal gain.",
-      "translation": "自分自身の利益を得ることを第一に考えて行動する。",
+      "translation": "自分自身の利益を得ようとして行動する。",
       "guidance": "",
       "literal_ja": "自分自身の利益を得ようとしている。"
     },
@@ -384,7 +385,7 @@
       "facet_ja": "謙虚さ",
       "key": "+",
       "original": "Don't think that I'm better than other people.",
-      "translation": "自分は他の人より人間として上だ、とは思わない。",
+      "translation": "自分は、他の人より優れた人間だとは思わない。",
       "guidance": "",
       "literal_ja": "自分が他の人より優れているとは思わない。"
     },
@@ -396,7 +397,7 @@
       "facet_ja": "謙虚さ",
       "key": "+",
       "original": "See myself as an average person.",
-      "translation": "自分自身を、全体として平均的な人間だと思っている。",
+      "translation": "自分を平均的な人間だと思っている。",
       "guidance": "",
       "literal_ja": "自分を平均的な人だと見ている。"
     },
@@ -408,7 +409,7 @@
       "facet_ja": "謙虚さ",
       "key": "+",
       "original": "Am just an ordinary person.",
-      "translation": "自分は特別な存在というより、ごく普通の人間だと思う。",
+      "translation": "自分はごく普通の人間だと思う。",
       "guidance": "",
       "literal_ja": "自分はただの普通の人だ。"
     },
@@ -420,7 +421,7 @@
       "facet_ja": "謙虚さ",
       "key": "+",
       "original": "Consider myself an average person.",
-      "translation": "自分を、特別優れても劣ってもいない平均的な人間だと考えている。",
+      "translation": "自分を平均的な人間だと考えている。",
       "guidance": "",
       "literal_ja": "自分を平均的な人だと考えている。"
     },
@@ -480,7 +481,7 @@
       "facet_ja": "謙虚さ",
       "key": "-",
       "original": "Am likely to show off if I get the chance.",
-      "translation": "機会があれば、つい自分を見せびらかすような振る舞いをすると思う。",
+      "translation": "機会があれば、自分を見せびらかすような振る舞いをすると思う。",
       "guidance": "",
       "literal_ja": "機会があれば、自慢げに見せびらかす可能性が高い。"
     },
@@ -504,7 +505,7 @@
       "facet_ja": "恐れやすさ",
       "key": "+",
       "original": "Am a physical coward.",
-      "translation": "けがや事故など、身体的な危険がある場面では怖がって尻込みする方だ。",
+      "translation": "身体的な危険を前にすると、怖がって尻込みする方だ。",
       "guidance": "性格全般の『臆病さ』ではなく、けが・事故など身体的危険への怖さを想定してください。",
       "literal_ja": "身体的な危険に対して臆病だ。"
     },
@@ -516,7 +517,7 @@
       "facet_ja": "恐れやすさ",
       "key": "+",
       "original": "Begin to panic when there is danger.",
-      "translation": "身の危険を感じる状況になると、冷静さを失ってパニックになり始める。",
+      "translation": "危険な状況になると、パニックになり始める。",
       "guidance": "",
       "literal_ja": "危険があると、パニックになり始める。"
     },
@@ -540,7 +541,7 @@
       "facet_ja": "恐れやすさ",
       "key": "+",
       "original": "Tremble in dangerous situations.",
-      "translation": "実際に危険な状況になると、恐怖で体が震えることがあると思う。",
+      "translation": "危険な状況では、恐怖で体が震えることがあると思う。",
       "guidance": "",
       "literal_ja": "危険な状況では震える。"
     },
@@ -552,7 +553,7 @@
       "facet_ja": "恐れやすさ",
       "key": "+",
       "original": "Would never go riding down a stretch of rapids in a canoe.",
-      "translation": "カヌーで激しい急流を下るような、身体的に危険な活動は絶対にやりたくない。",
+      "translation": "カヌーで激しい急流を下ることは、絶対にやりたくない。",
       "guidance": "実際にカヌー経験がある必要はありません。同程度に身体的リスクのあるレジャーを想像して答えてください。",
       "literal_ja": "カヌーで急流を下ることは決してしないだろう。"
     },
@@ -576,7 +577,7 @@
       "facet_ja": "恐れやすさ",
       "key": "-",
       "original": "Face danger confidently.",
-      "translation": "危険な状況でも、怖さに圧倒されず自信を持って対処できる。",
+      "translation": "危険な状況にも、自信を持って向き合える。",
       "guidance": "",
       "literal_ja": "危険に自信を持って向き合う。"
     },
@@ -588,7 +589,7 @@
       "facet_ja": "恐れやすさ",
       "key": "-",
       "original": "Love dangerous situations.",
-      "translation": "危険がある状況そのものに、魅力や楽しさを感じる。",
+      "translation": "危険な状況が好きだ。",
       "guidance": "",
       "literal_ja": "危険な状況が大好きだ。"
     },
@@ -600,7 +601,7 @@
       "facet_ja": "恐れやすさ",
       "key": "-",
       "original": "Would be good at rescuing people from a burning building.",
-      "translation": "燃えている建物から人を救出するような危険な場面でも、うまく行動できると思う。",
+      "translation": "燃えている建物から人を救出するとき、うまく行動できると思う。",
       "guidance": "実際の消防技術の有無ではなく、強い身体的危険がある場面でも自分は対処できそうだと感じるかを考えてください。",
       "literal_ja": "燃えている建物から人を救出するのが得意だろう。"
     },
@@ -612,7 +613,7 @@
       "facet_ja": "恐れやすさ",
       "key": "-",
       "original": "Am willing to take risks.",
-      "translation": "危険や損失の可能性がある選択でも、リスクを取ること自体には比較的抵抗がない。",
+      "translation": "リスクを取ることに抵抗はない。",
       "guidance": "無謀さや判断能力ではなく、一般にリスクを引き受けることへの心理的な抵抗の強さを聞いています。合理的に必要性を評価できるかどうかとは別に、普段どちら側へ寄るかで答えてください。",
       "literal_ja": "リスクを取る意思がある。"
     },
@@ -636,7 +637,7 @@
       "facet_ja": "不安",
       "key": "+",
       "original": "Worry about things.",
-      "translation": "起こるかもしれない問題や悪い結果について、あれこれ心配する方だ。",
+      "translation": "物事をあれこれ心配する方だ。",
       "guidance": "",
       "literal_ja": "物事を心配する。"
     },
@@ -660,7 +661,7 @@
       "facet_ja": "不安",
       "key": "+",
       "original": "Get upset by unpleasant thoughts that come into my mind.",
-      "translation": "嫌な想像や考えが頭に浮かぶと、それだけで気持ちが乱される。",
+      "translation": "不快な考えが頭に浮かぶと、気持ちが乱される。",
       "guidance": "",
       "literal_ja": "頭に浮かぶ不快な考えによって動揺する。"
     },
@@ -732,7 +733,7 @@
       "facet_ja": "不安",
       "key": "-",
       "original": "Don't worry about things that have already happened.",
-      "translation": "すでに終わった出来事について、後から何度も心配し続けることはあまりない。",
+      "translation": "すでに起きたことについては、あまり心配しない。",
       "guidance": "",
       "literal_ja": "すでに起きたことについて心配しない。"
     },
@@ -744,7 +745,7 @@
       "facet_ja": "依存性",
       "key": "+",
       "original": "Need reassurance.",
-      "translation": "不安なときには、誰かから『大丈夫だ』と安心させてもらいたいと感じる。",
+      "translation": "人から『大丈夫だ』と安心させてもらう必要を感じる。",
       "guidance": "",
       "literal_ja": "安心させてもらう必要がある。"
     },
@@ -756,7 +757,7 @@
       "facet_ja": "依存性",
       "key": "+",
       "original": "Let myself be influenced by others.",
-      "translation": "他人の意見や態度に、そのまま影響されてしまうことがある。",
+      "translation": "他人の影響をそのまま受けることがある。",
       "guidance": "根拠を聞いて納得して意見を変えることとは別に、周囲の意見・雰囲気そのものに自分が影響されやすいかを考えてください。",
       "literal_ja": "他人から影響を受けるままにする。"
     },
@@ -828,7 +829,7 @@
       "facet_ja": "依存性",
       "key": "+",
       "original": "Seek support.",
-      "translation": "つらいときには、一人で抱え込むより人に支えや助けを求める。",
+      "translation": "人からの支えを求めることがある。",
       "guidance": "",
       "literal_ja": "支えを求める。"
     },
@@ -900,7 +901,7 @@
       "facet_ja": "情の深さ",
       "key": "+",
       "original": "Am sensitive to the needs of others.",
-      "translation": "相手が助けや配慮を必要としていることに、比較的すぐ気づく。",
+      "translation": "他人が何を必要としているかに敏感な方だ。",
       "guidance": "",
       "literal_ja": "他人が必要としていることに敏感だ。"
     },
@@ -972,7 +973,7 @@
       "facet_ja": "情の深さ",
       "key": "-",
       "original": "Seldom get emotional.",
-      "translation": "喜怒哀楽などで気持ちが大きく揺さぶられることは、あまりない。",
+      "translation": "感情的になることはあまりない。",
       "guidance": "",
       "literal_ja": "感情的になることはめったにない。"
     },
@@ -1092,7 +1093,7 @@
       "facet_ja": "表現性",
       "key": "-",
       "original": "Speak softly.",
-      "translation": "話す声は、比較的小さく控えめな方だ。",
+      "translation": "小さめの声で話す方だ。",
       "guidance": "",
       "literal_ja": "小さな声で話す。"
     },
@@ -1128,7 +1129,7 @@
       "facet_ja": "社交的大胆さ",
       "key": "+",
       "original": "Feel comfortable around people.",
-      "translation": "人と一緒にいる場でも、緊張せず自然体でいられる。",
+      "translation": "人と一緒にいるとき、居心地よく感じる。",
       "guidance": "",
       "literal_ja": "人のそばにいても居心地がよい。"
     },
@@ -1152,7 +1153,7 @@
       "facet_ja": "社交的大胆さ",
       "key": "+",
       "original": "Have a strong personality.",
-      "translation": "性格がはっきりしていて、存在感や意志が強い方だと思う。",
+      "translation": "自分は、強い個性を持っていると思う。",
       "guidance": "ここでいう strong personality は、性格の善悪ではなく、意志や存在感が強く、周囲に押されにくいという意味です。",
       "literal_ja": "強い個性を持っている。"
     },
@@ -1188,7 +1189,7 @@
       "facet_ja": "社交的大胆さ",
       "key": "-",
       "original": "Find it difficult to approach others.",
-      "translation": "知らない人やまだ親しくない人に、自分から近づいて話しかけるのは難しい。",
+      "translation": "他人に自分から近づいて話しかけるのは難しい。",
       "guidance": "",
       "literal_ja": "他人に近づくのが難しいと感じる。"
     },
@@ -1212,7 +1213,7 @@
       "facet_ja": "社交的大胆さ",
       "key": "-",
       "original": "Have little to say.",
-      "translation": "人と一緒にいても、自分から話したいことがあまり浮かばない。",
+      "translation": "人といても、あまり話すことがない。",
       "guidance": "",
       "literal_ja": "話すことがほとんどない。"
     },
@@ -1332,7 +1333,7 @@
       "facet_ja": "社交性",
       "key": "-",
       "original": "Keep others at a distance.",
-      "translation": "他人とは、ある程度の距離を置く方だ。",
+      "translation": "他人と距離を置く方だ。",
       "guidance": "",
       "literal_ja": "他人を遠ざけておく。"
     },
@@ -1416,7 +1417,7 @@
       "facet_ja": "活発さ",
       "key": "+",
       "original": "Feel that I have a lot of inner strength.",
-      "translation": "自分には、内側から湧いてくるような力強さや活力が十分あると感じる。",
+      "translation": "自分の内側に、かなりの力強さがあると感じる。",
       "guidance": "inner strength は直訳すると『内面的な力』ですが、精神力だけに限定せず、自分の内側にある力強さ・活力として捉えてください。",
       "literal_ja": "自分にはたくさんの内面的な力があると感じる。"
     },
@@ -1428,7 +1429,7 @@
       "facet_ja": "活発さ",
       "key": "+",
       "original": "Have a lot of fun.",
-      "translation": "日常生活の中で、楽しい・面白いと感じる時間が多い。",
+      "translation": "楽しいと感じることが多い。",
       "guidance": "",
       "literal_ja": "たくさん楽しむ。"
     },
@@ -1560,7 +1561,7 @@
       "facet_ja": "寛容さ",
       "key": "-",
       "original": "Distrust people.",
-      "translation": "基本的に、人の言葉や善意をそのまま信用しない方だ。",
+      "translation": "人を信用しない方だ。",
       "guidance": "",
       "literal_ja": "人を信用しない。"
     },
@@ -1572,7 +1573,7 @@
       "facet_ja": "寛容さ",
       "key": "-",
       "original": "Feel that most people can't be trusted.",
-      "translation": "世の中の大半の人は、十分には信用できないと思う。",
+      "translation": "大半の人は信用できないと思う。",
       "guidance": "",
       "literal_ja": "大半の人は信用できないと感じる。"
     },
@@ -1584,7 +1585,7 @@
       "facet_ja": "穏やかさ",
       "key": "+",
       "original": "Rarely complain.",
-      "translation": "気に入らないことがあっても、不平や文句を口にすることはあまりない。",
+      "translation": "不平や文句を言うことはめったにない。",
       "guidance": "",
       "literal_ja": "めったに不平を言わない。"
     },
@@ -1596,7 +1597,7 @@
       "facet_ja": "穏やかさ",
       "key": "+",
       "original": "Take things as they come.",
-      "translation": "自分の思いどおりにならないことが起きても、必要以上に抵抗せず、その状況を受け入れて対応する方だ。",
+      "translation": "起きたことをそのまま受け入れて対応する方だ。",
       "guidance": "何も考えず流されるというより、予想外の状況を必要以上に拒まず受け入れて対応できるか、という意味です。",
       "literal_ja": "起きることをそのまま受け入れる。"
     },
@@ -1608,7 +1609,7 @@
       "facet_ja": "穏やかさ",
       "key": "+",
       "original": "Accept people as they are.",
-      "translation": "人の欠点や癖も含め、その人はそういう人だとして受け入れる方だ。",
+      "translation": "人をありのまま受け入れる方だ。",
       "guidance": "",
       "literal_ja": "人をありのまま受け入れる。"
     },
@@ -1620,7 +1621,7 @@
       "facet_ja": "穏やかさ",
       "key": "+",
       "original": "Have a good word for everyone.",
-      "translation": "たいていの人について、少なくとも何か一つは良いところを見つけて言える。",
+      "translation": "たいていの人について、何か良いことを言える。",
       "guidance": "",
       "literal_ja": "誰についても良いことを言える。"
     },
@@ -1644,7 +1645,7 @@
       "facet_ja": "穏やかさ",
       "key": "-",
       "original": "Am quick to judge others.",
-      "translation": "人について十分に知る前から、良い・悪いなどの評価を早めに決めてしまう方だ。",
+      "translation": "他人をすぐに評価・判断してしまう方だ。",
       "guidance": "",
       "literal_ja": "他人をすぐに判断する。"
     },
@@ -1692,7 +1693,7 @@
       "facet_ja": "穏やかさ",
       "key": "-",
       "original": "Criticize others' shortcomings.",
-      "translation": "他人の欠点や弱いところを批判することが多い。",
+      "translation": "他人の欠点や弱いところを批判することがある。",
       "guidance": "",
       "literal_ja": "他人の欠点を批判する。"
     },
@@ -1704,7 +1705,7 @@
       "facet_ja": "柔軟さ",
       "key": "+",
       "original": "Adjust easily.",
-      "translation": "予定や状況、人との関わり方が変わっても、比較的すぐそれに合わせられる。",
+      "translation": "変化があっても、比較的すぐに適応できる。",
       "guidance": "",
       "literal_ja": "簡単に適応する。"
     },
@@ -1728,7 +1729,7 @@
       "facet_ja": "柔軟さ",
       "key": "-",
       "original": "When interacting with a group of people, am often bothered by at least one of them.",
-      "translation": "複数人のグループと関わっていると、たいてい少なくとも一人には性格や振る舞いで気になる点が出てくる。",
+      "translation": "複数人のグループと関わっていると、たいてい少なくとも一人には気になるところがある。",
       "guidance": "",
       "literal_ja": "人の集まりと関わっていると、そのうち少なくとも一人にはよく腹が立つ。"
     },
@@ -1752,7 +1753,7 @@
       "facet_ja": "柔軟さ",
       "key": "-",
       "original": "Get upset if others change the way that I have arranged things.",
-      "translation": "自分が決めたり整えたりしたやり方を他人に変えられると、気分を害したり腹が立ったりする。",
+      "translation": "自分が整えた状態を他人に変えられると、気分を害する。",
       "guidance": "",
       "literal_ja": "自分が整えたやり方を他人に変えられると動揺する。"
     },
@@ -1824,7 +1825,7 @@
       "facet_ja": "忍耐",
       "key": "+",
       "original": "Find that it takes a lot to make me feel angry at someone.",
-      "translation": "誰かに本気で腹を立てるまでには、かなり強い理由や出来事が必要だ。",
+      "translation": "誰かに怒りを感じるまでには、かなりのことが必要だ。",
       "guidance": "",
       "literal_ja": "誰かに怒りを感じるまでには、かなりのことが必要だ。"
     },
@@ -1860,7 +1861,7 @@
       "facet_ja": "忍耐",
       "key": "+",
       "original": "Rarely get irritated.",
-      "translation": "ちょっとしたことでいら立つことはめったにない。",
+      "translation": "いら立つことはめったにない。",
       "guidance": "",
       "literal_ja": "めったにいら立たない。"
     },
@@ -1932,7 +1933,7 @@
       "facet_ja": "忍耐",
       "key": "-",
       "original": "Get upset easily.",
-      "translation": "ちょっとしたことで、腹を立てたり感情的に動揺したりしやすい。",
+      "translation": "簡単に動揺する方だ。",
       "guidance": "",
       "literal_ja": "簡単に動揺する。"
     },
@@ -1992,7 +1993,7 @@
       "facet_ja": "整理整頓",
       "key": "+",
       "original": "Want everything to be \"just right.\"",
-      "translation": "物事が中途半端ではなく、自分の中で『きちんと整った』と思える状態にしたい。",
+      "translation": "何でも『ちょうどよい』『きちんと整った』状態にしたい。",
       "guidance": "",
       "literal_ja": "すべてが『ちょうどよい』状態であってほしい。"
     },
@@ -2004,7 +2005,7 @@
       "facet_ja": "整理整頓",
       "key": "-",
       "original": "Leave a mess in my room.",
-      "translation": "自分の部屋や身の回りを、散らかったままにしておくことがある。",
+      "translation": "自分の部屋を散らかったままにすることがある。",
       "guidance": "",
       "literal_ja": "自分の部屋を散らかったままにする。"
     },
@@ -2064,7 +2065,7 @@
       "facet_ja": "勤勉さ",
       "key": "+",
       "original": "Push myself very hard to succeed.",
-      "translation": "目標を達成するためなら、自分にかなり高い努力を要求して頑張る。",
+      "translation": "成功するために、自分をかなり厳しく追い込んで努力する。",
       "guidance": "",
       "literal_ja": "成功するために、自分を非常に厳しく追い込む。"
     },
@@ -2076,7 +2077,7 @@
       "facet_ja": "勤勉さ",
       "key": "+",
       "original": "Get started quickly on doing a job.",
-      "translation": "やるべき仕事があると、先延ばしせず比較的すぐ取りかかる。",
+      "translation": "仕事には比較的すぐ取りかかる。",
       "guidance": "",
       "literal_ja": "仕事にすぐ取りかかる。"
     },
@@ -2136,7 +2137,7 @@
       "facet_ja": "勤勉さ",
       "key": "-",
       "original": "Stop when work becomes too difficult.",
-      "translation": "仕事や課題がかなり難しくなると、粘るより途中でやめてしまうことがある。",
+      "translation": "仕事や課題がかなり難しくなると、途中でやめてしまうことがある。",
       "guidance": "",
       "literal_ja": "仕事が難しくなりすぎるとやめる。"
     },
@@ -2208,7 +2209,7 @@
       "facet_ja": "完全主義",
       "key": "+",
       "original": "Have an eye for detail.",
-      "translation": "他の人が見落とすような細かな点によく気づく。",
+      "translation": "細かな点によく気づく。",
       "guidance": "",
       "literal_ja": "細部を見る目がある。"
     },
@@ -2232,7 +2233,7 @@
       "facet_ja": "完全主義",
       "key": "+",
       "original": "Dislike imperfect work.",
-      "translation": "出来に不完全なところが残った仕事を見ると、不満を感じる。",
+      "translation": "不完全なところが残った仕事は好きではない。",
       "guidance": "",
       "literal_ja": "不完全な仕事が嫌いだ。"
     },
@@ -2244,7 +2245,7 @@
       "facet_ja": "完全主義",
       "key": "+",
       "original": "Want everything to add up perfectly.",
-      "translation": "数字・説明・要素どうしが食い違わず、全体として完全に整合している状態を求める。",
+      "translation": "すべてが完全につじつまが合っている状態を求める。",
       "guidance": "",
       "literal_ja": "すべてが完全につじつまが合っていてほしい。"
     },
@@ -2256,7 +2257,7 @@
       "facet_ja": "完全主義",
       "key": "+",
       "original": "Detect mistakes.",
-      "translation": "作業や文章などに含まれるミスを見つけるのが得意な方だ。",
+      "translation": "ミスによく気づく。",
       "guidance": "",
       "literal_ja": "間違いを見つける。"
     },
@@ -2268,7 +2269,7 @@
       "facet_ja": "完全主義",
       "key": "+",
       "original": "Demand quality.",
-      "translation": "物事の出来には、高い質を求める。",
+      "translation": "高い質を求める。",
       "guidance": "仕事の成果物だけに限定せず、物事の出来や品質に高い水準を求める傾向を考えてください。",
       "literal_ja": "質を要求する。"
     },
@@ -2280,7 +2281,7 @@
       "facet_ja": "完全主義",
       "key": "-",
       "original": "Pay too little attention to details.",
-      "translation": "作業するとき、細部への注意が不足してしまうことがある。",
+      "translation": "細部への注意が足りないことがある。",
       "guidance": "",
       "literal_ja": "細部への注意が少なすぎる。"
     },
@@ -2292,7 +2293,7 @@
       "facet_ja": "完全主義",
       "key": "-",
       "original": "Prefer to just let things happen.",
-      "translation": "細かく計画したり管理したりするより、ある程度は成り行きに任せる方が好きだ。",
+      "translation": "物事は、ある程度成り行きに任せる方が好きだ。",
       "guidance": "",
       "literal_ja": "ただ成り行きに任せる方を好む。"
     },
@@ -2328,7 +2329,7 @@
       "facet_ja": "慎重さ",
       "key": "+",
       "original": "Do things according to a plan.",
-      "translation": "思いつきで進めるより、あらかじめ立てた計画に沿って物事を進める。",
+      "translation": "あらかじめ立てた計画に沿って物事を進める。",
       "guidance": "",
       "literal_ja": "計画に従って物事を行う。"
     },
@@ -2340,7 +2341,7 @@
       "facet_ja": "慎重さ",
       "key": "-",
       "original": "Jump into things without thinking.",
-      "translation": "十分に考える前に、とりあえず行動を始めてしまうことがある。",
+      "translation": "よく考えずに、物事を始めてしまうことがある。",
       "guidance": "",
       "literal_ja": "考えずに物事へ飛び込む。"
     },
@@ -2364,7 +2365,7 @@
       "facet_ja": "慎重さ",
       "key": "-",
       "original": "Make rash decisions.",
-      "translation": "情報を十分検討する前に、性急な判断をしてしまうことがある。",
+      "translation": "軽率な判断をしてしまうことがある。",
       "guidance": "",
       "literal_ja": "軽率な決断をする。"
     },
@@ -2400,7 +2401,7 @@
       "facet_ja": "慎重さ",
       "key": "-",
       "original": "Don't know why I do some of the things I do.",
-      "translation": "自分で取った行動なのに、後から『なぜ自分はこんなことをしたのだろう』と理由が分からないことがある。",
+      "translation": "自分で取った行動なのに、『なぜ自分はこんなことをしたのだろう』と理由が分からないことがある。",
       "guidance": "",
       "literal_ja": "自分がすることの中には、なぜそうするのか自分でも分からないものがある。"
     },
@@ -2448,7 +2449,7 @@
       "facet_ja": "美的感受性",
       "key": "+",
       "original": "See beauty in things that others might not notice.",
-      "translation": "他の人なら見過ごしそうな物や風景にも、美しさを感じることがある。",
+      "translation": "他の人が気づかないようなものにも、美しさを感じることがある。",
       "guidance": "",
       "literal_ja": "他人が気づかないかもしれないものに美しさを見いだす。"
     },
@@ -2508,7 +2509,7 @@
       "facet_ja": "美的感受性",
       "key": "-",
       "original": "Do not like poetry.",
-      "translation": "詩を読んだり味わったりすることは好きではない。",
+      "translation": "詩が好きではない。",
       "guidance": "",
       "literal_ja": "詩が好きではない。"
     },
@@ -2520,7 +2521,7 @@
       "facet_ja": "美的感受性",
       "key": "-",
       "original": "Do not like concerts.",
-      "translation": "音楽を生で聴くコンサートや演奏会は、あまり好きではない。",
+      "translation": "コンサートや演奏会は、あまり好きではない。",
       "guidance": "",
       "literal_ja": "コンサートが好きではない。"
     },
@@ -2568,7 +2569,7 @@
       "facet_ja": "探究心",
       "key": "+",
       "original": "Enjoy intellectual games.",
-      "translation": "パズル、推理、戦略など、考えること自体を楽しむ知的な遊びが好きだ。",
+      "translation": "頭を使う知的なゲームを楽しむ。",
       "guidance": "",
       "literal_ja": "知的なゲームを楽しむ。"
     },
@@ -2604,7 +2605,7 @@
       "facet_ja": "探究心",
       "key": "+",
       "original": "Have a rich vocabulary.",
-      "translation": "自分は、物事を表す言葉や表現を比較的多く知っている方だ。",
+      "translation": "語彙が豊富な方だ。",
       "guidance": "",
       "literal_ja": "豊富な語彙を持っている。"
     },
@@ -2616,7 +2617,7 @@
       "facet_ja": "探究心",
       "key": "-",
       "original": "Don't know much about history.",
-      "translation": "歴史上の出来事や時代について、自分はあまり知識がない方だ。",
+      "translation": "歴史について、あまり知識がない方だ。",
       "guidance": "",
       "literal_ja": "歴史についてあまり知らない。"
     },
@@ -2628,7 +2629,7 @@
       "facet_ja": "探究心",
       "key": "-",
       "original": "Avoid difficult reading material.",
-      "translation": "内容を理解するのにかなり頭を使うような難しい読み物は、なるべく読まないようにする。",
+      "translation": "難しい読み物は、なるべく読まないようにする。",
       "guidance": "",
       "literal_ja": "難しい読み物を避ける。"
     },
@@ -2640,7 +2641,7 @@
       "facet_ja": "探究心",
       "key": "-",
       "original": "Don't bother worrying about political and social problems.",
-      "translation": "政治や社会の問題について、わざわざ気にかけたり考えたりしない。",
+      "translation": "政治や社会の問題について、わざわざ心配しない。",
       "guidance": "",
       "literal_ja": "政治や社会の問題について、わざわざ心配しない。"
     },
@@ -2652,7 +2653,7 @@
       "facet_ja": "探究心",
       "key": "-",
       "original": "Will not probe deeply into a subject.",
-      "translation": "一つのテーマについて、詳しい背景や仕組みまで深く掘り下げることはあまりない。",
+      "translation": "一つのテーマを深く掘り下げることはあまりない。",
       "guidance": "",
       "literal_ja": "あるテーマについて深く掘り下げようとはしない。"
     },
@@ -2664,7 +2665,7 @@
       "facet_ja": "創造性",
       "key": "+",
       "original": "Have a vivid imagination.",
-      "translation": "頭の中で場面や出来事を鮮明に思い描くなど、想像力が豊かな方だ。",
+      "translation": "物事を鮮明に思い描ける、豊かな想像力がある。",
       "guidance": "",
       "literal_ja": "鮮明な想像力がある。"
     },
@@ -2676,7 +2677,7 @@
       "facet_ja": "創造性",
       "key": "+",
       "original": "Come up with something new.",
-      "translation": "新しいアイデアや方法を思いつく。",
+      "translation": "新しいものや考えを思いつく。",
       "guidance": "",
       "literal_ja": "何か新しいものを思いつく。"
     },
@@ -2688,7 +2689,7 @@
       "facet_ja": "創造性",
       "key": "+",
       "original": "Carry the conversation to a higher level.",
-      "translation": "会話を、表面的な雑談だけでなく、より深く考える内容へ発展させることがある。",
+      "translation": "会話を、より深い内容へ発展させることがある。",
       "guidance": "",
       "literal_ja": "会話をより高い水準へ引き上げる。"
     },
@@ -2724,7 +2725,7 @@
       "facet_ja": "創造性",
       "key": "+",
       "original": "Have excellent ideas.",
-      "translation": "良いアイデアを思いつく方だ。",
+      "translation": "優れたアイデアを思いつく方だ。",
       "guidance": "",
       "literal_ja": "すばらしいアイデアを持っている。"
     },
@@ -2748,7 +2749,7 @@
       "facet_ja": "創造性",
       "key": "-",
       "original": "Have difficulty imagining things.",
-      "translation": "実際には目の前にない物事や状況を、頭の中で具体的に思い描くのが難しい。",
+      "translation": "物事を頭の中で思い描くのが難しい。",
       "guidance": "",
       "literal_ja": "物事を想像するのが難しい。"
     },
@@ -2760,7 +2761,7 @@
       "facet_ja": "創造性",
       "key": "-",
       "original": "Have trouble guessing how others will react.",
-      "translation": "自分が何か言ったりしたりしたとき、相手がどう反応するかを頭の中で予想するのが難しい。",
+      "translation": "他人がどう反応するかを予想するのが難しい。",
       "guidance": "",
       "literal_ja": "他人がどう反応するかを推測するのが難しい。"
     },
@@ -2772,7 +2773,7 @@
       "facet_ja": "創造性",
       "key": "-",
       "original": "Seldom experience sudden intuitive insights.",
-      "translation": "考えている途中で突然『そういうことか』と新しい見方や解決策がひらめくことは、あまりない。",
+      "translation": "突然、直感的に何かを理解したりひらめいたりすることはあまりない。",
       "guidance": "",
       "literal_ja": "突然の直感的なひらめきを経験することはめったにない。"
     },
@@ -2784,7 +2785,7 @@
       "facet_ja": "非慣習性",
       "key": "+",
       "original": "Am considered to be kind of eccentric.",
-      "translation": "周囲から、少し風変わり・独特な人だと思われることがある。",
+      "translation": "周囲から、少し風変わりな人だと思われている。",
       "guidance": "",
       "literal_ja": "少し風変わりだと思われている。"
     },
@@ -2808,7 +2809,7 @@
       "facet_ja": "非慣習性",
       "key": "+",
       "original": "Do things that others find strange.",
-      "translation": "周囲の人から『普通はそんなことをしない』と思われるようなことをすることがある。",
+      "translation": "周囲の人が変だと思うようなことをすることがある。",
       "guidance": "",
       "literal_ja": "他人が変だと思うことをする。"
     },
@@ -2832,7 +2833,7 @@
       "facet_ja": "非慣習性",
       "key": "+",
       "original": "Swim against the current.",
-      "translation": "周囲の大多数と違う方向を、あえて選ぶことがある。",
+      "translation": "周囲の流れに逆らって進むことがある。",
       "guidance": "反対すること自体が好きかではなく、多数派と違う選択をすることへの抵抗が少ないかを考えてください。",
       "literal_ja": "流れに逆らって進む。"
     },
@@ -2880,7 +2881,7 @@
       "facet_ja": "非慣習性",
       "key": "-",
       "original": "Like to be thought of as a normal kind of person.",
-      "translation": "人から、特に変わったところのない普通の人だと思われたい。",
+      "translation": "人から、普通の人だと思われたい。",
       "guidance": "",
       "literal_ja": "普通のタイプの人だと思われたい。"
     },
@@ -2892,7 +2893,7 @@
       "facet_ja": "非慣習性",
       "key": "-",
       "original": "Try to avoid complex people.",
-      "translation": "考え方や性格が複雑で理解に手間がかかる人とは、なるべく関わらないようにする。",
+      "translation": "複雑な人とは、なるべく関わらないようにする。",
       "guidance": "",
       "literal_ja": "複雑な人を避けようとする。"
     }
